@@ -1,0 +1,11 @@
+{
+  "name": "jdbc-sidecar",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Servidor HTTP JDBC (Maven/Java). Usa ./mvnw (Maven Wrapper); JDK 21+ recomendado.",
+  "scripts": {
+    "build": "./mvnw -B -q -DskipTests package",
+    "start": "./mvnw -q exec:java",
+    "dev": "./mvnw -q exec:java"
+  }
+}

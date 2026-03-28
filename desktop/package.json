@@ -1,0 +1,21 @@
+{
+  "name": "desktop",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Shell Electron para o renderer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "concurrently -k -n vite,electron -c blue,magenta \"yarn --cwd ../renderer dev\" \"wait-on http://127.0.0.1:5173 && cross-env ELECTRON_RENDERER_URL=http://127.0.0.1:5173 electron .\"",
+    "build:renderer": "yarn --cwd ../renderer build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "cross-env": "^7.0.3",
+    "electron": "^34.0.0",
+    "wait-on": "^8.0.1"
+  },
+  "dependencies": {
+    "@spce/shared": "portal:../shared"
+  }
+}
