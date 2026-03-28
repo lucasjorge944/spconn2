@@ -1,0 +1,103 @@
+{
+"ESPECIE_RECURSO": [
+	{
+		"CD_ESPECIE_RECURSO" : 0,
+		"DS_ESPECIE_RECURSO" : "Cheque",
+		"NR_ORDEM" : 1
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 1,
+		"DS_ESPECIE_RECURSO" : "Transferência eletrônica",
+		"NR_ORDEM" : 2
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 2,
+		"DS_ESPECIE_RECURSO" : "Estimado",
+		"NR_ORDEM" : 9
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 3,
+		"DS_ESPECIE_RECURSO" : "Outros títulos de crédito",
+		"NR_ORDEM" : 10
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 4,
+		"DS_ESPECIE_RECURSO" : "Depósito em espécie",
+		"NR_ORDEM" : 3
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 5,
+		"DS_ESPECIE_RECURSO" : "Em espécie",
+		"NR_ORDEM" : 4
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 6,
+		"DS_ESPECIE_RECURSO" : "Boleto de cobrança",
+		"NR_ORDEM" : 8
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 7,
+		"DS_ESPECIE_RECURSO" : "Cartão de crédito",
+		"NR_ORDEM" : 5
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 8,
+		"DS_ESPECIE_RECURSO" : "Débito em conta",
+		"NR_ORDEM" : 7
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 9,
+		"DS_ESPECIE_RECURSO" : "Não informado",
+		"NR_ORDEM" : 15
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 10,
+		"DS_ESPECIE_RECURSO" : "Despesa não quitada",
+		"NR_ORDEM" : 13
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 11,
+		"DS_ESPECIE_RECURSO" : "Aplicação Fundo Partidário",
+		"NR_ORDEM" : 11
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 12,
+		"DS_ESPECIE_RECURSO" : "Estorno",
+		"NR_ORDEM" : 14
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 13,
+		"DS_ESPECIE_RECURSO" : "Cartão de débito",
+		"NR_ORDEM" : 6
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 14,
+		"DS_ESPECIE_RECURSO" : "Cheque avulso",
+		"NR_ORDEM" : 16
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 15,
+		"DS_ESPECIE_RECURSO" : "Saque em espécie",
+		"NR_ORDEM" : 17
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 16,
+		"DS_ESPECIE_RECURSO" : "--",
+		"NR_ORDEM" : 18
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 17,
+		"DS_ESPECIE_RECURSO" : "Movimentação entre contas",
+		"NR_ORDEM" : 18
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 18,
+		"DS_ESPECIE_RECURSO" : "Aplicação de Fundo Especial de Financiamento de Campanha",
+		"NR_ORDEM" : 11
+	},
+	{
+		"CD_ESPECIE_RECURSO" : 19,
+		"DS_ESPECIE_RECURSO" : "PIX",
+		"NR_ORDEM" : 11
+	}
+]}

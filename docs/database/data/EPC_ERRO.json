@@ -1,0 +1,53 @@
+{
+"EPC_ERRO": [
+	{
+		"CD_ERRO" : 101,
+		"CD_GRUPO_INFORMACAO" : 1,
+		"DS_ERRO" : "Qualificação"
+	},
+	{
+		"CD_ERRO" : 102,
+		"CD_GRUPO_INFORMACAO" : 1,
+		"DS_ERRO" : "Membros"
+	},
+	{
+		"CD_ERRO" : 103,
+		"CD_GRUPO_INFORMACAO" : 1,
+		"DS_ERRO" : "Contas Bancárias"
+	},
+	{
+		"CD_ERRO" : 201,
+		"CD_GRUPO_INFORMACAO" : 2,
+		"DS_ERRO" : "Impressão de Recibos Eleitorais"
+	},
+	{
+		"CD_ERRO" : 301,
+		"CD_GRUPO_INFORMACAO" : 3,
+		"DS_ERRO" : "Doações"
+	},
+	{
+		"CD_ERRO" : 302,
+		"CD_GRUPO_INFORMACAO" : 3,
+		"DS_ERRO" : "Comercialização de Bens ou Realização de Eventos"
+	},
+	{
+		"CD_ERRO" : 303,
+		"CD_GRUPO_INFORMACAO" : 3,
+		"DS_ERRO" : "Rendimentos de Aplicações Financeiras"
+	},
+	{
+		"CD_ERRO" : 401,
+		"CD_GRUPO_INFORMACAO" : 4,
+		"DS_ERRO" : "Despesas"
+	},
+	{
+		"CD_ERRO" : 402,
+		"CD_GRUPO_INFORMACAO" : 4,
+		"DS_ERRO" : "Doações a terceiros"
+	},
+	{
+		"CD_ERRO" : 403,
+		"CD_GRUPO_INFORMACAO" : 4,
+		"DS_ERRO" : "Movimentação de recursos"
+	}
+]}

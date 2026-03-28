@@ -1,0 +1,31 @@
+{
+"TIPO_DOCUMENTO": [
+	{
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_TIPO_DOCUMENTO" : "Nota Fiscal"
+	},
+	{
+		"CD_TIPO_DOCUMENTO" : 3,
+		"DS_TIPO_DOCUMENTO" : "Cupom Fiscal"
+	},
+	{
+		"CD_TIPO_DOCUMENTO" : 4,
+		"DS_TIPO_DOCUMENTO" : "Recibo"
+	},
+	{
+		"CD_TIPO_DOCUMENTO" : 6,
+		"DS_TIPO_DOCUMENTO" : "RPA - Recibo de Pagamento Autônomo"
+	},
+	{
+		"CD_TIPO_DOCUMENTO" : 7,
+		"DS_TIPO_DOCUMENTO" : "Duplicata"
+	},
+	{
+		"CD_TIPO_DOCUMENTO" : 8,
+		"DS_TIPO_DOCUMENTO" : "Fatura"
+	},
+	{
+		"CD_TIPO_DOCUMENTO" : 9,
+		"DS_TIPO_DOCUMENTO" : "Outro"
+	}
+]}

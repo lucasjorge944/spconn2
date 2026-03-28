@@ -1,0 +1,233 @@
+{
+"MODELO_DOCUMENTO": [
+	{
+		"CD_MODELO_DOCUMENTO" : 1,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal - Modelo 1"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 2,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal - Modelo 1-A"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 3,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal de Venda a Consumidor - Modelo 2"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 4,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal de Produtor - Modelo 4"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 5,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal \/ Conta de Energia Elétrica - Modelo 6"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 6,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal de Serviço de Transporte - Modelo 7"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 7,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Conhecimento de Transporte Rodoviário de Cargas - Modelo 8"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 8,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Conhecimento de Transporte Aquaviário de Cargas - Modelo 9"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 9,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Conhecimento Aéreo - Modelo 10"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 10,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Conhecimento de Transporte Ferroviário de Cargas - Modelo 11"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 11,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Bilhete de Passagem Rodoviário - Modelo 13"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 12,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Bilhete de Passagem Aquaviário - Modelo 14"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 13,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Bilhete de Passagem e Nota de Bagagem - Modelo 15"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 14,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Bilhete de Passagem Ferroviário - Modelo 16"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 15,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Despacho de Transporte - Modelo 17"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 16,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Resumo de Movimento Diário"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 17,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Ordem de Coleta de Carga - Modelo 20"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 18,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal de Serviço de Comunicação - Modelo 21"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 19,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal de Serviço de Telecomunicações - Modelo 22"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 20,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Guia Nacional de Recolhimento de Tributos Estaduais - GNR, Modelo 23"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 21,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Autorização de Carregamento e Transporte, Modelo 24"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 22,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Manifesto de Carga - Modelo 25"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 23,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Conhecimento de Transporte Multimodal de Cargas, Modelo 26"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 24,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal de Serviço de Transporte Ferroviário, Modelo 27"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 25,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal Eletrônica - NF-e"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 26,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Guia para Liberação de Mercadoria Estrangeira sem Comprovação do Recolhimento do ICMS"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 27,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota de Movimentação de Materiais e Equipamentos"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 28,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Certificado de Pesagem de Cana"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 29,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Nota Fiscal - Registro das Aquisições de Cana"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 30,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Listagem Mensal das Notas Fiscais - Registro das Aquisições de Cana"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 31,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Entradas - Modelo 1"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 32,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Entradas - Modelo 1-A"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 33,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Saídas - Modelo 2"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 34,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Saídas - Modelo 2-A"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 35,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Controle da Produção e do Estoque - Modelo 3"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 36,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Selo Especial de Controle - Modelo 4"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 37,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Impressão de Documentos Fiscais - Modelo 5"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 38,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Resumo de Utilização de Documentos Fiscais e Termo de Ocorrência"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 39,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Inventário - Modelo 7"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 40,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Apuração do IPI - Modelo 8"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 41,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Registro de Apuração do ICMS - Modelo 9"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 42,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Ficha - Indice da Utilização de Fichas de Controle da Produção e do Estoque"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 43,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Livro de Movimentação de Combustível"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 44,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Demonstrativo de Apuração do ICMS - DAICMS - Energia Elétrica"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 45,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Termo de Abertura de Livro Fiscal"
+	},
+	{
+		"CD_MODELO_DOCUMENTO" : 46,
+		"CD_TIPO_DOCUMENTO" : 1,
+		"DS_MODELO_DOCUMENTO" : "Memorando-Exportação"
+	}
+]}

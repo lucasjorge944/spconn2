@@ -8,7 +8,7 @@ alwaysApply: false
 
 Ao definir entidades, repositórios, SQL ou integração JDBC:
 
-1. Consulte **`docs/database/admspce16-schema.sql`** (tabelas), **`admspce16-views.sql`** (views `VW_*`), **`admspce16-sequences.md`** (sequências `SQ_EPC_*`), **`admspce16-tipos-dados.md`** (tipos H2/JDBC) e o diagrama **`docs/database/ADMSPCE16.png`** (ER): schema `ADMSPCE16`, colunas, PKs/FKs, views, IDs, tipos e relações visuais.
+1. Consulte **`docs/database/admspce16-schema.sql`** (tabelas), **`admspce16-views.sql`** (views `VW_*`), **`admspce16-sequences.md`** (sequências `SQ_EPC_*`), **`admspce16-tipos-dados.md`** (tipos H2/JDBC) e o diagrama **`docs/database/ADMSPCE16.png`** (ER): schema `ADMSPCE16`, colunas, PKs/FKs, views, IDs, tipos e relações visuais. Para **dados iniciais/catálogos** já existentes no banco (FKs, listas), use **`docs/database/data/*.json`** — ver `docs/database/README.md` seção *Dados iniciais*.
 2. O app **AEROPORTO** usa `CD_AEROPORTO`, `NM_AEROPORTO`, `SG_UE` (FK para `UE`). Trechos de voo usam **`EPC_TRECHO`** com FKs para **`AEROPORTO`**.
 3. O núcleo da prestação por campanha é **`EPC_ENTREGA_PRESTACAO`** (`SQ_ENTREGA_PRESTACAO`, `CD_ELEICAO`, etc.).
 4. **Candidatos** não são uma tabela própria: ficam em **`EPC_PESSOA`** com **`TP_PESSOA = 'CA'`** (check `CK_PESSOA`), com **`NR_CANDIDATO`**, **`CD_CARGO`**, **`NR_PARTIDO`**, **`NM_PESSOA`**, **`NR_CPF`**, **`SG_UE_PESSOA`** (FK **`UE`**) e FK **`SQ_ENTREGA_PRESTACAO`** → **`EPC_ENTREGA_PRESTACAO`** (para obter **`CD_ELEICAO`**, fazer join nessa tabela).

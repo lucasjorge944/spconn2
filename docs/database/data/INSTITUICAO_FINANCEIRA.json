@@ -1,0 +1,1478 @@
+{
+"INSTITUICAO_FINANCEIRA": [
+	{
+		"CD_COMPENSACAO" : "901",
+		"NM_BANCO" : "Souza Barros Câmbio e Títulos S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "018",
+		"NM_BANCO" : "Banco Tricury S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "060",
+		"NM_BANCO" : "Confidence Corretora de Câmbio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "065",
+		"NM_BANCO" : "Banco AndBank (Brasil) S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "080",
+		"NM_BANCO" : "BT Associados Corretora de Câmbio Ltda",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "084",
+		"NM_BANCO" : "Uniprime Norte do Paraná - Coop. de Econ e Crédito Mútuo dos Medicos,...",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "085",
+		"NM_BANCO" : "Cooperativa Central de Crédito Urbano - Cecred",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "087",
+		"NM_BANCO" : "Cooperativa Central de Economia e Crédito Mútuo das Unicred¿s de SC e PR Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "088",
+		"NM_BANCO" : "Banco Randon S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "089",
+		"NM_BANCO" : "Cooperativa de Crédito Rural da Região da Mogiana",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "090",
+		"NM_BANCO" : "Coop. Central de Econ. e Cred Mútuo das Unicreds do Est. SP - Unicred Central SP",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "091",
+		"NM_BANCO" : "Central de Cooperativas de Economia e Crédito Mútuo do Est RS - Unicred",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "092",
+		"NM_BANCO" : "Brickell S.A. Crédito, Financiamento e Investimento",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "093",
+		"NM_BANCO" : "Pólocred Sociedade de Crédito ao Microempreendedor e à Empresa de Pequeno Porte",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "094",
+		"NM_BANCO" : "Banco Petra S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "097",
+		"NM_BANCO" : "Cooperativa Central de Crédito Noroeste Brasileiro Ltda - CentralCredi",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "098",
+		"NM_BANCO" : "Credialiança Cooperativa de Crédito Rural",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "099",
+		"NM_BANCO" : "Uniprime Central ¿ Central Interestadual de Cooperativas de Crédito Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "100",
+		"NM_BANCO" : "Planner Corretora de Valores S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "101",
+		"NM_BANCO" : "Renascença Distribuidora de Títulos e Valores Mobiliários Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "102",
+		"NM_BANCO" : "XP Investimentos Corretora de Câmbio Títulos e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "707",
+		"NM_BANCO" : "Banco Daycoval S.A.",
+		"DS_URL" : "www.daycoval.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "037",
+		"NM_BANCO" : "Banco do Estado do Pará S.A.",
+		"DS_URL" : "www.banparanet.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "047",
+		"NM_BANCO" : "Banco do Estado de Sergipe S.A.",
+		"DS_URL" : "www.banese.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "062",
+		"NM_BANCO" : "Hipercard Banco Múltiplo S.A.",
+		"DS_URL" : "www.hipercard.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "132",
+		"NM_BANCO" : "ICBC do Brasil Banco Múltiplo S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "074",
+		"NM_BANCO" : "Banco J. Safra S.A.",
+		"DS_URL" : "www.jsafra.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "623",
+		"NM_BANCO" : "Banco Pan S.A.",
+		"DS_URL" : "www.panamericano.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "107",
+		"NM_BANCO" : "Banco BBM S.A.",
+		"DS_URL" : "www.bbmbank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "116",
+		"NM_BANCO" : "Unibanco-União de Bancos Brasileiros S;A (Antigo Banco BNL do Brasil S;A)",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "184",
+		"NM_BANCO" : "Banco Itaú BBA S.A.",
+		"DS_URL" : "www.itaubba.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "204",
+		"NM_BANCO" : "Banco Bradesco Cartões S.A.",
+		"DS_URL" : "www.iamex.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "208",
+		"NM_BANCO" : "Banco BTG Pactual S.A.",
+		"DS_URL" : "www.pactual.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "212",
+		"NM_BANCO" : "Banco Original S.A.",
+		"DS_URL" : "www.bancomatone.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "213",
+		"NM_BANCO" : "Banco Arbi S.A.",
+		"DS_URL" : "www.arbi.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "214",
+		"NM_BANCO" : "Banco Dibens S.A.",
+		"DS_URL" : "www.bancodibens.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "217",
+		"NM_BANCO" : "Banco John Deere S.A.",
+		"DS_URL" : "www.johndeere.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "218",
+		"NM_BANCO" : "Banco Bonsucesso S.A.",
+		"DS_URL" : "www.bancobonsucesso.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "246",
+		"NM_BANCO" : "Banco ABC Brasil S.A.",
+		"DS_URL" : "www.abcbrasil.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "249",
+		"NM_BANCO" : "Banco Investcred Unibanco S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "254",
+		"NM_BANCO" : "Parana Banco S. A.",
+		"DS_URL" : "www.paranabanco.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "263",
+		"NM_BANCO" : "Banco Cacique S. A.",
+		"DS_URL" : "www.bancocacique.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "265",
+		"NM_BANCO" : "Banco Fator S.A.",
+		"DS_URL" : "www.bancofator.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "266",
+		"NM_BANCO" : "Banco Cédula S.A.",
+		"DS_URL" : "www.bancocedula.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "300",
+		"NM_BANCO" : "Banco de la Nacion Argentina",
+		"DS_URL" : "www.bna.com.ar"
+	},
+	{
+		"CD_COMPENSACAO" : "318",
+		"NM_BANCO" : "Banco BMG S.A.",
+		"DS_URL" : "www.bancobmg.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "320",
+		"NM_BANCO" : "China Construction Bank (Brasil) Banco Múltiplo S\/A",
+		"DS_URL" : "www.bicbanco.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "341",
+		"NM_BANCO" : "Itaú Unibanco S.A.",
+		"DS_URL" : "www.itau.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "353",
+		"NM_BANCO" : "Banco Santander Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "366",
+		"NM_BANCO" : "Banco Société Générale Brasil S.A.",
+		"DS_URL" : "www.sgbrasil.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "370",
+		"NM_BANCO" : "Banco Mizuho do Brasil S.A.",
+		"DS_URL" : "www.westlb.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "376",
+		"NM_BANCO" : "Banco J. P. Morgan S. A.",
+		"DS_URL" : "www.jpmorgan.com"
+	},
+	{
+		"CD_COMPENSACAO" : "389",
+		"NM_BANCO" : "Banco Mercantil do Brasil S.A.",
+		"DS_URL" : "www.mercantil.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "412",
+		"NM_BANCO" : "Banco Capital S. A.",
+		"DS_URL" : "www.bancocapital.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "422",
+		"NM_BANCO" : "Banco Safra S.A.",
+		"DS_URL" : "www.safra.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "453",
+		"NM_BANCO" : "Banco Rural S.A.",
+		"DS_URL" : "www.rural.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "456",
+		"NM_BANCO" : "Banco de Tokyo-Mitsubishi UFJ Brasil S.A.",
+		"DS_URL" : "www.btm.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "464",
+		"NM_BANCO" : "Banco Sumitomo Mitsui Brasileiro S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "473",
+		"NM_BANCO" : "Banco Caixa Geral - Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "477",
+		"NM_BANCO" : "Citibank N.A.",
+		"DS_URL" : "www.citibank.com;brasil"
+	},
+	{
+		"CD_COMPENSACAO" : "479",
+		"NM_BANCO" : "Banco ItauBank S.A.",
+		"DS_URL" : "www.itaubank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "487",
+		"NM_BANCO" : "Deutsche Bank S.A. - Banco Alemão",
+		"DS_URL" : "www.deutsche-bank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "488",
+		"NM_BANCO" : "JPMorgan Chase Bank, National Association",
+		"DS_URL" : "www.jpmorganchase.com"
+	},
+	{
+		"CD_COMPENSACAO" : "492",
+		"NM_BANCO" : "ING Bank N.V.",
+		"DS_URL" : "www.ing.com"
+	},
+	{
+		"CD_COMPENSACAO" : "494",
+		"NM_BANCO" : "Banco de La Republica Oriental del Uruguay",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "495",
+		"NM_BANCO" : "Banco de La Provincia de Buenos Aires",
+		"DS_URL" : "www.bapro.com.ar"
+	},
+	{
+		"CD_COMPENSACAO" : "505",
+		"NM_BANCO" : "Banco Credit Suisse (Brasil) S.A.",
+		"DS_URL" : "www.csfb.com"
+	},
+	{
+		"CD_COMPENSACAO" : "600",
+		"NM_BANCO" : "Banco Luso Brasileiro S.A.",
+		"DS_URL" : "www.lusobrasileiro.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "604",
+		"NM_BANCO" : "Banco Industrial do Brasil S.A.",
+		"DS_URL" : "www.bancoindustrial.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "610",
+		"NM_BANCO" : "Banco VR S.A.",
+		"DS_URL" : "www.vr.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "611",
+		"NM_BANCO" : "Banco Paulista S.A.",
+		"DS_URL" : "www.bancopaulista.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "630",
+		"NM_BANCO" : "Banco Intercap S.A.",
+		"DS_URL" : "www.intercap.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "724",
+		"NM_BANCO" : "Banco Porto Seguro S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "741",
+		"NM_BANCO" : "Banco Ribeirão Preto S.A.",
+		"DS_URL" : "www.brp.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "743",
+		"NM_BANCO" : "Banco Semear S.A.",
+		"DS_URL" : "www.bancosemear.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "655",
+		"NM_BANCO" : "Banco Votorantim S.A.",
+		"DS_URL" : "www.bancovotorantim.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "641",
+		"NM_BANCO" : "Banco Alvorada S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "096",
+		"NM_BANCO" : "Banco BMFBovespa de Serviços de Liquidação e Custódia S\/A",
+		"DS_URL" : "www.bmf.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "078",
+		"NM_BANCO" : "Haitong Banco de Investimento do Brasil S.A.",
+		"DS_URL" : "www.besinvestimento.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "064",
+		"NM_BANCO" : "Goldman Sachs do Brasil  Banco Múltiplo S. A.",
+		"DS_URL" : "www.goldmansachs.com"
+	},
+	{
+		"CD_COMPENSACAO" : "007",
+		"NM_BANCO" : "Banco Nacional de Desenvolvimento Econômico e Social BNDES",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "134",
+		"NM_BANCO" : "BGC Liquidez Distribuidora de Títulos e Valores Mobiliários Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "076",
+		"NM_BANCO" : "Banco KDB do Brasil S.A.",
+		"DS_URL" : "www.bancokdb.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "014",
+		"NM_BANCO" : "Natixis Brasil S.A. Banco Múltiplo",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "127",
+		"NM_BANCO" : "Codepe - Corretora de Valores S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "138",
+		"NM_BANCO" : "Get Money Corretora de Câmbio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "113",
+		"NM_BANCO" : "Magliano S.A. Corretora de Cambio e Valores Mobiliarios",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "015",
+		"NM_BANCO" : "UBS Brasil Corretora de Câmbio, Títulos e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "130",
+		"NM_BANCO" : "Caruana S.A. Sociedade de Crédito, Financiamento e Investimento",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "119",
+		"NM_BANCO" : "Banco Western Union do Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "133",
+		"NM_BANCO" : "Confederação Nacional Coop. Centrais Créd. Econ. Familiar Solidária ¿ CONFESOL",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "083",
+		"NM_BANCO" : "Banco da China Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "077",
+		"NM_BANCO" : "Banco Intermedium S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "081",
+		"NM_BANCO" : "BBN Banco Brasileiro de Negocios S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "128",
+		"NM_BANCO" : "MS Bank S.A. Banco de Câmbio",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "144",
+		"NM_BANCO" : "Bexs Banco de Câmbio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "139",
+		"NM_BANCO" : "Intesa Sanpaolo Brasil S.A. - Banco Múltiplo",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "142",
+		"NM_BANCO" : "Broker Brasil Corretora de Câmbio Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "140",
+		"NM_BANCO" : "Easynvest - Título Corretora de Valores SA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "135",
+		"NM_BANCO" : "Gradual Corretora de Câmbio, Títulos e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "146",
+		"NM_BANCO" : "Guitta Corretora de Câmbio Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "157",
+		"NM_BANCO" : "ICAP do Brasil Corretora de Títulos e Valores Mobiliários Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "145",
+		"NM_BANCO" : "Levycam - Corretora de Câmbio e Valores Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "137",
+		"NM_BANCO" : "Multimoney Corretora de Câmbio Ltda",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "147",
+		"NM_BANCO" : "Rico Corretora de Títulos e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "167",
+		"NM_BANCO" : "S. Hayata Corretora de Câmbio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "545",
+		"NM_BANCO" : "Senso Corretora de Câmbio e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "143",
+		"NM_BANCO" : "Treviso Corretora de Câmbio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "149",
+		"NM_BANCO" : "Facta Financeira S.A. - Crédito Financiamento e Investimento",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "754",
+		"NM_BANCO" : "Banco Sistema S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "082",
+		"NM_BANCO" : "Banco Topazio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "M08",
+		"NM_BANCO" : "Banco Citicard S.A.",
+		"DS_URL" : "www.credicardbanco.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M09",
+		"NM_BANCO" : "Banco Itaucred Financiamentos S.A.",
+		"DS_URL" : "www.itaucred.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M10",
+		"NM_BANCO" : "Banco Moneo S.A.",
+		"DS_URL" : "www.bancomoneo.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M11",
+		"NM_BANCO" : "Banco IBM S.A.",
+		"DS_URL" : "www.ibm.com;br;financing;"
+	},
+	{
+		"CD_COMPENSACAO" : "M12",
+		"NM_BANCO" : "Banco Maxinvest S.A.",
+		"DS_URL" : "www.bancomaxinvest.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M13",
+		"NM_BANCO" : "Banco Tricury S.A.",
+		"DS_URL" : "www.tricury.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M17",
+		"NM_BANCO" : "Banco Ourinvest S.A.",
+		"DS_URL" : "www.ourinvest.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "000",
+		"NM_BANCO" : "Banco Bankpar S.A.",
+		"DS_URL" : "www.aexp.com"
+	},
+	{
+		"CD_COMPENSACAO" : "083-3",
+		"NM_BANCO" : "Banco da China Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "224",
+		"NM_BANCO" : "Banco Fibra S.A.",
+		"DS_URL" : "www.bancofibra.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "225",
+		"NM_BANCO" : "Banco Brascan S.A.",
+		"DS_URL" : "www.bancobrascan.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "229",
+		"NM_BANCO" : "Banco Cruzeiro do Sul S.A.",
+		"DS_URL" : "www.bcsul.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "230",
+		"NM_BANCO" : "Unicard Banco Múltiplo S.A.",
+		"DS_URL" : "www.unicard.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "233",
+		"NM_BANCO" : "Banco Cifra S.A.",
+		"DS_URL" : "www.bancoge.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "237",
+		"NM_BANCO" : "Banco Bradesco S.A.",
+		"DS_URL" : "www.bradesco.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "241",
+		"NM_BANCO" : "Banco Clássico S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "243",
+		"NM_BANCO" : "Banco Máxima S.A.",
+		"DS_URL" : "www.bancomaxima.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "248",
+		"NM_BANCO" : "Banco Boavista Interatlântico S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "250",
+		"NM_BANCO" : "BCV - Banco de Crédito e Varejo S\/A",
+		"DS_URL" : "www.bancoschahin.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "399",
+		"NM_BANCO" : "HSBC Bank Brasil S. A. - Banco Multiplo",
+		"DS_URL" : "www.hsbc.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "409",
+		"NM_BANCO" : "UNIBANCO - União de Bancos Brasileiros S.A.",
+		"DS_URL" : "www.unibanco.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "612",
+		"NM_BANCO" : "Banco Guanabara S.A.",
+		"DS_URL" : "www.bcoguan.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "613",
+		"NM_BANCO" : "Banco Pecúnia S. A.",
+		"DS_URL" : "www.bancopecunia.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "626",
+		"NM_BANCO" : "Banco Ficsa S. A.",
+		"DS_URL" : "www.ficsa.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "643",
+		"NM_BANCO" : "Banco Pine S.A.",
+		"DS_URL" : "www.bancopine.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "652",
+		"NM_BANCO" : "Itaú Unibanco Holding S.A.",
+		"DS_URL" : "www.itau.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "653",
+		"NM_BANCO" : "Banco Indusval S. A.",
+		"DS_URL" : "www.indusval.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "654",
+		"NM_BANCO" : "Banco A. J. Renner S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "719",
+		"NM_BANCO" : "Banif - Bco Internacional do Funchal (Brasil) S.A.",
+		"DS_URL" : "www.banif.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "721",
+		"NM_BANCO" : "Banco Credibel S.A.",
+		"DS_URL" : "www.credibel.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "739",
+		"NM_BANCO" : "Banco Cetelem S.A.",
+		"DS_URL" : "www.bgn.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "740",
+		"NM_BANCO" : "Banco Barclays S.A.",
+		"DS_URL" : "www.barclays.com"
+	},
+	{
+		"CD_COMPENSACAO" : "745",
+		"NM_BANCO" : "Banco Citibank S.A.",
+		"DS_URL" : "www.citibank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "013",
+		"NM_BANCO" : "Senso Corretora de Câmbio e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "105",
+		"NM_BANCO" : "Lecca Crédito, Financiamento e Investimento S\/A",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "108",
+		"NM_BANCO" : "PortoCred S.A. Crédito, Financiamento e Investimento",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "111",
+		"NM_BANCO" : "Oliveira Trust Distribuidora de Títulos e Valores Mobiliários S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "112",
+		"NM_BANCO" : "Central das Cooperativas de Crédito do Brasil Central   ",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "114",
+		"NM_BANCO" : "Central das Cooperativas de Economia e Crédito Mútuo do Estado do Espírito Santo",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "117",
+		"NM_BANCO" : "Advanced Corretora de Câmbio Ltda.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "118",
+		"NM_BANCO" : "Standard Chartered Bank (Brasil) S.A. Banco de Investimento",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "120",
+		"NM_BANCO" : "Banco Rodobens SA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "121",
+		"NM_BANCO" : "Banco Gerador S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "122",
+		"NM_BANCO" : "Banco Bradesco BERJ S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "123",
+		"NM_BANCO" : "Agiplan Financeira S.A. - Crédito, Financiamento e Investimento",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "124",
+		"NM_BANCO" : "Banco Woori Bank do Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "125",
+		"NM_BANCO" : "Brasil Plural S.A. Banco Múltiplo",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "126",
+		"NM_BANCO" : "BR Partners Banco de Investimento S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "129",
+		"NM_BANCO" : "UBS Brasil Banco de Investimento S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "131",
+		"NM_BANCO" : "Tullett Prebon Brasil S.A. Corretora de Valores e Câmbio",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "136",
+		"NM_BANCO" : "Confederação Nacional das Cooperativas Centrais Unicred¿s ¿ Unicred do Brasil",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "222",
+		"NM_BANCO" : "Banco Credit Agrícole Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "394",
+		"NM_BANCO" : "Banco Bradesco Financiamentos S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "712",
+		"NM_BANCO" : "Banco Ourinvest S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "019",
+		"NM_BANCO" : "Banco Azteca do Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "634",
+		"NM_BANCO" : "Banco Triângulo S.A.",
+		"DS_URL" : "www.tribanco.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "637",
+		"NM_BANCO" : "Banco Sofisa S. A.",
+		"DS_URL" : "www.sofisa.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "638",
+		"NM_BANCO" : "Banco Prosper S.A.",
+		"DS_URL" : "www.bancoprosper.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "010",
+		"NM_BANCO" : "Credicoamo Crédito Rural Cooperativa",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "011",
+		"NM_BANCO" : "Credit Suisse Hedging-Griffo Corretora de Valores S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "016",
+		"NM_BANCO" : "Coop de Créd. Mútuo dos Despachantes de Trânsito de SC e Rio Grande do Sul",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "017",
+		"NM_BANCO" : "BNY Mellon Banco S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "633",
+		"NM_BANCO" : "Banco Rendimento S.A.",
+		"DS_URL" : "www.rendimento.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M03",
+		"NM_BANCO" : "Banco Fiat S.A.",
+		"DS_URL" : "www.bancofiat.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M06",
+		"NM_BANCO" : "Banco de Lage Landen Brasil S.A.",
+		"DS_URL" : "www.delagelanden.com"
+	},
+	{
+		"CD_COMPENSACAO" : "M14",
+		"NM_BANCO" : "Banco Volkswagen S.A.",
+		"DS_URL" : "www.bancovw.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M15",
+		"NM_BANCO" : "Banco BRJ S.A.",
+		"DS_URL" : "www.brjbank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M16",
+		"NM_BANCO" : "Banco Rodobens S.A.",
+		"DS_URL" : "www.rodobens.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M18",
+		"NM_BANCO" : "Banco Ford S.A.",
+		"DS_URL" : "www.bancoford.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M19",
+		"NM_BANCO" : "Banco CNH Capital S.A.",
+		"DS_URL" : "www.bancocnh.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M20",
+		"NM_BANCO" : "Banco Toyota do Brasil S.A.",
+		"DS_URL" : "www.bancotoyota.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M22",
+		"NM_BANCO" : "Banco Honda S.A.",
+		"DS_URL" : "www.bancohonda.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M23",
+		"NM_BANCO" : "Banco Volvo (Brasil) S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "M24",
+		"NM_BANCO" : "Banco PSA Finance Brasil S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "001",
+		"NM_BANCO" : "Banco do Brasil S.A.",
+		"DS_URL" : "www.bb.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "003",
+		"NM_BANCO" : "Banco da Amazônia S.A.",
+		"DS_URL" : "www.bancoamazonia.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "004",
+		"NM_BANCO" : "Banco do Nordeste do Brasil S.A.",
+		"DS_URL" : "www.banconordeste.gov.br"
+	},
+	{
+		"CD_COMPENSACAO" : "021",
+		"NM_BANCO" : "Banestes S.A. Banco do Estado do Espírito Santo",
+		"DS_URL" : "www.banestes.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "024",
+		"NM_BANCO" : "Banco Bandepe S.A.",
+		"DS_URL" : "www.bandepe.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "025",
+		"NM_BANCO" : "Banco Alfa S.A.",
+		"DS_URL" : "www.bancoalfa.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "029",
+		"NM_BANCO" : "Banco Itaú BMG Consignado S.A.",
+		"DS_URL" : "www.banerj.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "033",
+		"NM_BANCO" : "Banco Santander (Brasil) S. A.",
+		"DS_URL" : "www.santander.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "035",
+		"NM_BANCO" : "Banco Bradesco S;A (Antigo Banco do Estado do Ceará S;A - BEC)",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "036",
+		"NM_BANCO" : "Banco Bradesco BBI S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "040",
+		"NM_BANCO" : "Banco Cargill S.A.",
+		"DS_URL" : "www.bancocargill.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "041",
+		"NM_BANCO" : "Banco do Estado do Rio Grande do Sul S.A.",
+		"DS_URL" : "www.banrisul.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "044",
+		"NM_BANCO" : "Banco BVA S.A.",
+		"DS_URL" : "www.bancobva.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "045",
+		"NM_BANCO" : "Banco Opportunity S.A.",
+		"DS_URL" : "www.opportunity.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "063",
+		"NM_BANCO" : "Banco Bradescard S.A.",
+		"DS_URL" : "www.ibi.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "066",
+		"NM_BANCO" : "Banco Morgan Stanley S. A.",
+		"DS_URL" : "www.morganstanley.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "069",
+		"NM_BANCO" : "Banco BPN Brasil S.A.",
+		"DS_URL" : "www.bpnbrasil.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "070",
+		"NM_BANCO" : "Banco de Brasília S.A.",
+		"DS_URL" : "www.brb.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "072",
+		"NM_BANCO" : "Banco Rural Mais S.A.",
+		"DS_URL" : "www.rural.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "075",
+		"NM_BANCO" : "Banco ABN Amro S.A.",
+		"DS_URL" : "www.bancocr2.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "077-9",
+		"NM_BANCO" : "Banco Intermedium S.A.",
+		"DS_URL" : "www.intermedium.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "079",
+		"NM_BANCO" : "Banco Original do Agronegócio S.A.",
+		"DS_URL" : "www.bancojbs.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "081-7",
+		"NM_BANCO" : "BBN Banco Brasileiro de Negocios S.A. (Concórdia Banco)",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "082-5",
+		"NM_BANCO" : "Banco Topázio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "095",
+		"NM_BANCO" : "Banco Confidence de Câmbio S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "104",
+		"NM_BANCO" : "Caixa Econômica Federal",
+		"DS_URL" : "www.caixa.gov.br"
+	},
+	{
+		"CD_COMPENSACAO" : "M07",
+		"NM_BANCO" : "Banco GMAC S.A.",
+		"DS_URL" : "www.bancogm.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "735",
+		"NM_BANCO" : "Banco Pottencial S.A.",
+		"DS_URL" : "www.pottencial.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "746",
+		"NM_BANCO" : "Banco Modal S.A.",
+		"DS_URL" : "www.bancomodal.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "747",
+		"NM_BANCO" : "Banco Rabobank International Brasil S.A.",
+		"DS_URL" : "www.rabobank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "748",
+		"NM_BANCO" : "Banco Cooperativo Sicredi S. A.",
+		"DS_URL" : "www.sicredi.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "749",
+		"NM_BANCO" : "Banco Simples S.A.",
+		"DS_URL" : "www.bancosimples.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "751",
+		"NM_BANCO" : "Scotiabank Brasil S.A. Banco Múltiplo",
+		"DS_URL" : "www.dkib.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "752",
+		"NM_BANCO" : "Banco BNP Paribas Brasil S.A.",
+		"DS_URL" : "www.bnpparibas.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "753",
+		"NM_BANCO" : "Novo Banco Continental S.A. - Banco Múltiplo",
+		"DS_URL" : "www.nbcbank.com.br"
+	},
+	{
+		"CD_COMPENSACAO" : "755",
+		"NM_BANCO" : "Bank of America Merrill Lynch Banco Múltiplo S.A.",
+		"DS_URL" : "www.ml.com"
+	},
+	{
+		"CD_COMPENSACAO" : "756",
+		"NM_BANCO" : "Banco Cooperativo do Brasil S\/A - Bancoob",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "757",
+		"NM_BANCO" : "Banco Keb Hana do Brasil S. A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "12",
+		"NM_BANCO" : "BANCO INBURSA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "159",
+		"NM_BANCO" : "CASA CREDITO S.A. SCM",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "163",
+		"NM_BANCO" : "COMMERZBANK BRASIL S.A. - BCO MÚLTIPLO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "169",
+		"NM_BANCO" : "BCO OLÉ BONSUCESSO CONSIGNADO S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "173",
+		"NM_BANCO" : "BRL TRUST DTVM SA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "174",
+		"NM_BANCO" : "PERNAMBUCANAS FINANC S.A. CFI",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "177",
+		"NM_BANCO" : "GUIDE",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "180",
+		"NM_BANCO" : "CM CAPITAL MARKETS CCTVM LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "183",
+		"NM_BANCO" : "SOCRED SA - SCMEPP",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "188",
+		"NM_BANCO" : "ATIVA S.A. INVESTIMENTOS CCTVM",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "189",
+		"NM_BANCO" : "HS FINANCEIRA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "190",
+		"NM_BANCO" : "SERVICOOP",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "191",
+		"NM_BANCO" : "NOVA FUTURA CTVM LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "194",
+		"NM_BANCO" : "PARMETAL DTVM LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "196",
+		"NM_BANCO" : "FAIR CC S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "197",
+		"NM_BANCO" : "STONE PAGAMENTOS S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "253",
+		"NM_BANCO" : "BEXS CC S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "259",
+		"NM_BANCO" : "MONEYCORP BCO DE CÂMBIO S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "260",
+		"NM_BANCO" : "NU PAGAMENTOS S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "268",
+		"NM_BANCO" : "BARI CIA HIPOTECÁRIA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "269",
+		"NM_BANCO" : "HSBC BANCO DE INVESTIMENTO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "270",
+		"NM_BANCO" : "SAGITUR CC LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "271",
+		"NM_BANCO" : "IB CCTVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "272",
+		"NM_BANCO" : "AGK CC S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "273",
+		"NM_BANCO" : "CCR DE SÃO MIGUEL DO OESTE",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "274",
+		"NM_BANCO" : "MONEY PLUS SCMEPP LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "276",
+		"NM_BANCO" : "SENFF S.A. - CFI",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "278",
+		"NM_BANCO" : "GENIAL INVESTIMENTOS CVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "279",
+		"NM_BANCO" : "CCR DE PRIMAVERA DO LESTE",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "280",
+		"NM_BANCO" : "AVISTA S.A. CFI",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "281",
+		"NM_BANCO" : "CCR COOPAVEL",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "283",
+		"NM_BANCO" : "RB CAPITAL INVESTIMENTOS DTVM LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "285",
+		"NM_BANCO" : "FRENTE CC LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "286",
+		"NM_BANCO" : "CCR DE OURO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "288",
+		"NM_BANCO" : "CAROL DTVM LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "289",
+		"NM_BANCO" : "DECYSEO CC LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "290",
+		"NM_BANCO" : "PAGSEGURO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "292",
+		"NM_BANCO" : "BS2 DTVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "293",
+		"NM_BANCO" : "LASTRO RDV DTVM LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "296",
+		"NM_BANCO" : "VISION S.A. CC",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "298",
+		"NM_BANCO" : "VIPS CC LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "299",
+		"NM_BANCO" : "SOROCRED CFI S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "301",
+		"NM_BANCO" : "BPP IP S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "306",
+		"NM_BANCO" : "PORTOPAR DTVM LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "307",
+		"NM_BANCO" : "TERRA INVESTIMENTOS DTVM",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "309",
+		"NM_BANCO" : "CAMBIONET CC LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "310",
+		"NM_BANCO" : "VORTX DTVM LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "315",
+		"NM_BANCO" : "PI DTVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "319",
+		"NM_BANCO" : "OM DTVM LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "321",
+		"NM_BANCO" : "CREFAZ SCMEPP LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "322",
+		"NM_BANCO" : "CCR DE ABELARDO LUZ",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "323",
+		"NM_BANCO" : "MERCADO PAGO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "325",
+		"NM_BANCO" : "ÓRAMA DTVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "326",
+		"NM_BANCO" : "PARATI - CFI S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "329",
+		"NM_BANCO" : "QI SCD S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "330",
+		"NM_BANCO" : "BANCO BARI S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "331",
+		"NM_BANCO" : "FRAM CAPITAL DTVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "332",
+		"NM_BANCO" : "ACESSO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "335",
+		"NM_BANCO" : "BANCO DIGIO",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "336",
+		"NM_BANCO" : "BCO C6 S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "340",
+		"NM_BANCO" : "SUPER PAGAMENTOS E ADMINISTRACAO DE MEIOS ELETRONICOS S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "342",
+		"NM_BANCO" : "CREDITAS SCD",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "343",
+		"NM_BANCO" : "FFA SCMEPP LTDA.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "348",
+		"NM_BANCO" : "BCO XP S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "349",
+		"NM_BANCO" : "AMAGGI S.A. CFI",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "352",
+		"NM_BANCO" : "TORO CTVM LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "354",
+		"NM_BANCO" : "NECTON INVESTIMENTOS S.A CVM",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "355",
+		"NM_BANCO" : "ÓTIMO SCD S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "364",
+		"NM_BANCO" : "GERENCIANET PAGTOS BRASIL LTDA",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "365",
+		"NM_BANCO" : "SOLIDUS S.A. CCVM",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "367",
+		"NM_BANCO" : "VITREO DTVM S.A.",
+		"DS_URL" : null
+	},
+	{
+		"CD_COMPENSACAO" : "373",
+		"NM_BANCO" : "UP.P SEP S.A.",
+		"DS_URL" : null
+	}
+]}

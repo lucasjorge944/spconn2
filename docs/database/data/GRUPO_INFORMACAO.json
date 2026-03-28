@@ -1,0 +1,19 @@
+{
+"GRUPO_INFORMACAO": [
+	{
+		"CD_GRUPO_INFORMACAO" : 1,
+		"DS_GRUPO_INFORMACAO" : "Prestador de Contas"
+	},
+	{
+		"CD_GRUPO_INFORMACAO" : 2,
+		"DS_GRUPO_INFORMACAO" : "Recibos Eleitorais"
+	},
+	{
+		"CD_GRUPO_INFORMACAO" : 3,
+		"DS_GRUPO_INFORMACAO" : "Receitas"
+	},
+	{
+		"CD_GRUPO_INFORMACAO" : 4,
+		"DS_GRUPO_INFORMACAO" : "Despesas"
+	}
+]}

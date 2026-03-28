@@ -1,0 +1,1488 @@
+{
+"AEROPORTO": [
+	{
+		"CD_AEROPORTO" : "CZS",
+		"SG_UE" : "01074",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Cruzeiro do Sul"
+	},
+	{
+		"CD_AEROPORTO" : "RBR",
+		"SG_UE" : "01392",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Rio Branco - Plácido de Castro"
+	},
+	{
+		"CD_AEROPORTO" : "CIJ",
+		"SG_UE" : "01058",
+		"NM_AEROPORTO" : "Aeroporto de Brasileia"
+	},
+	{
+		"CD_AEROPORTO" : "FEJ",
+		"SG_UE" : "01139",
+		"NM_AEROPORTO" : "Aeroporto de Feijó"
+	},
+	{
+		"CD_AEROPORTO" : "ZMD",
+		"SG_UE" : "01457",
+		"NM_AEROPORTO" : "Aeroporto de Sena Madureira"
+	},
+	{
+		"CD_AEROPORTO" : "TRQ",
+		"SG_UE" : "01473",
+		"NM_AEROPORTO" : "Aeroporto de Tarauacá"
+	},
+	{
+		"CD_AEROPORTO" : "MCZ",
+		"SG_UE" : "27855",
+		"NM_AEROPORTO" : "Aeroporto Internacional Zumbi dos Palmares"
+	},
+	{
+		"CD_AEROPORTO" : "APQ",
+		"SG_UE" : "27057",
+		"NM_AEROPORTO" : "Aeroporto de Arapiraca"
+	},
+	{
+		"CD_AEROPORTO" : "MCP",
+		"SG_UE" : "06050",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Macapá"
+	},
+	{
+		"CD_AEROPORTO" : "TFF",
+		"SG_UE" : "02810",
+		"NM_AEROPORTO" : "Aeroporto de Tefé"
+	},
+	{
+		"CD_AEROPORTO" : "TBT",
+		"SG_UE" : "98477",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Tabatinga"
+	},
+	{
+		"CD_AEROPORTO" : "MAO",
+		"SG_UE" : "02550",
+		"NM_AEROPORTO" : "Aeroporto Internacional Eduardo Gomes"
+	},
+	{
+		"CD_AEROPORTO" : "LAZ",
+		"SG_UE" : "33774",
+		"NM_AEROPORTO" : "Aeroporto de Bom Jesus da Lapa"
+	},
+	{
+		"CD_AEROPORTO" : "IOS",
+		"SG_UE" : "35734",
+		"NM_AEROPORTO" : "Aeroporto Jorge Amado"
+	},
+	{
+		"CD_AEROPORTO" : "PAV",
+		"SG_UE" : "37818",
+		"NM_AEROPORTO" : "Aeroporto de Paulo Afonso"
+	},
+	{
+		"CD_AEROPORTO" : "SSA",
+		"SG_UE" : "38490",
+		"NM_AEROPORTO" : "Aeroporto Internacional Dep. Luís Eduardo Magalhães"
+	},
+	{
+		"CD_AEROPORTO" : "FOR",
+		"SG_UE" : "13897",
+		"NM_AEROPORTO" : "Aeroporto Internacional Pinto Martins"
+	},
+	{
+		"CD_AEROPORTO" : "JDO",
+		"SG_UE" : "14478",
+		"NM_AEROPORTO" : "Aeroporto Regional do Cariri"
+	},
+	{
+		"CD_AEROPORTO" : "CMC",
+		"SG_UE" : "13510",
+		"NM_AEROPORTO" : "Aeroporto Pinto Martins"
+	},
+	{
+		"CD_AEROPORTO" : "IGT",
+		"SG_UE" : "14117",
+		"NM_AEROPORTO" : "Aeroporto de Iguatu"
+	},
+	{
+		"CD_AEROPORTO" : "QBX",
+		"SG_UE" : "15598",
+		"NM_AEROPORTO" : "Aeroporto de Sobral"
+	},
+	{
+		"CD_AEROPORTO" : "BSB",
+		"SG_UE" : "97012",
+		"NM_AEROPORTO" : "Aeroporto Internacional Juscelino Kubitschek"
+	},
+	{
+		"CD_AEROPORTO" : "VIX",
+		"SG_UE" : "57053",
+		"NM_AEROPORTO" : "Aeroporto Eurico de Aguiar Salles"
+	},
+	{
+		"CD_AEROPORTO" : "CDI",
+		"SG_UE" : "56235",
+		"NM_AEROPORTO" : "Aeroporto de Cachoeiro de Itapemirim"
+	},
+	{
+		"CD_AEROPORTO" : "GUZ",
+		"SG_UE" : "56472",
+		"NM_AEROPORTO" : "Aeroporto de Guarapari"
+	},
+	{
+		"CD_AEROPORTO" : "SBJ",
+		"SG_UE" : "56979",
+		"NM_AEROPORTO" : "Aeroporto Tancredo de Almeida Neves"
+	},
+	{
+		"CD_AEROPORTO" : "GYN",
+		"SG_UE" : "93734",
+		"NM_AEROPORTO" : "Aeroporto Santa Genoveva"
+	},
+	{
+		"CD_AEROPORTO" : "APS",
+		"SG_UE" : "92215",
+		"NM_AEROPORTO" : "Aeroporto de Anápolis"
+	},
+	{
+		"CD_AEROPORTO" : "CLV",
+		"SG_UE" : "92894",
+		"NM_AEROPORTO" : "Aeroporto de Caldas Novas"
+	},
+	{
+		"CD_AEROPORTO" : "JTI",
+		"SG_UE" : "94331",
+		"NM_AEROPORTO" : "Aeroporto de Jataí"
+	},
+	{
+		"CD_AEROPORTO" : "MQH",
+		"SG_UE" : "96474",
+		"NM_AEROPORTO" : "Aeroporto de Minaçu"
+	},
+	{
+		"CD_AEROPORTO" : "NQL",
+		"SG_UE" : "94897",
+		"NM_AEROPORTO" : "Aeroporto de Niquelândia"
+	},
+	{
+		"CD_AEROPORTO" : "RVD",
+		"SG_UE" : "95710",
+		"NM_AEROPORTO" : "Aeroporto de Rio Verde"
+	},
+	{
+		"CD_AEROPORTO" : "IMP",
+		"SG_UE" : "08036",
+		"NM_AEROPORTO" : "Aeroporto de Imperatriz"
+	},
+	{
+		"CD_AEROPORTO" : "SLZ",
+		"SG_UE" : "09210",
+		"NM_AEROPORTO" : "Aeroporto Internacional Marechal Cunha Machado"
+	},
+	{
+		"CD_AEROPORTO" : "QAH",
+		"SG_UE" : "07030",
+		"NM_AEROPORTO" : "Aeroporto de Alcântara"
+	},
+	{
+		"CD_AEROPORTO" : "APY",
+		"SG_UE" : "07099",
+		"NM_AEROPORTO" : "Aeroporto de Alto Parnaíba"
+	},
+	{
+		"CD_AEROPORTO" : "BSS",
+		"SG_UE" : "07277",
+		"NM_AEROPORTO" : "Aeroporto de Balsas"
+	},
+	{
+		"CD_AEROPORTO" : "BDC",
+		"SG_UE" : "07315",
+		"NM_AEROPORTO" : "Aeroporto de Barra do Corda"
+	},
+	{
+		"CD_AEROPORTO" : "CLN",
+		"SG_UE" : "07536",
+		"NM_AEROPORTO" : "Aeroporto de Carolina"
+	},
+	{
+		"CD_AEROPORTO" : "CTP",
+		"SG_UE" : "07552",
+		"NM_AEROPORTO" : "Aeroporto de Carutapera"
+	},
+	{
+		"CD_AEROPORTO" : "CPU",
+		"SG_UE" : "07714",
+		"NM_AEROPORTO" : "Aeroporto de Cururupu"
+	},
+	{
+		"CD_AEROPORTO" : "GMS",
+		"SG_UE" : "07951",
+		"NM_AEROPORTO" : "Aeroporto de Guimarães"
+	},
+	{
+		"CD_AEROPORTO" : "PHI",
+		"SG_UE" : "08699",
+		"NM_AEROPORTO" : "Aeroporto de Pinheiro"
+	},
+	{
+		"CD_AEROPORTO" : "CGB",
+		"SG_UE" : "91677",
+		"NM_AEROPORTO" : "Aeroporto Internacional Marechal Rondon"
+	},
+	{
+		"CD_AEROPORTO" : "AFL",
+		"SG_UE" : "89877",
+		"NM_AEROPORTO" : "Aeroporto de Alta Floresta"
+	},
+	{
+		"CD_AEROPORTO" : "AIR",
+		"SG_UE" : "90271",
+		"NM_AEROPORTO" : "Aeroporto de Aripuanã"
+	},
+	{
+		"CD_AEROPORTO" : "BPG",
+		"SG_UE" : "90352",
+		"NM_AEROPORTO" : "Aeroporto de Barra do Garças"
+	},
+	{
+		"CD_AEROPORTO" : "CCX",
+		"SG_UE" : "90476",
+		"NM_AEROPORTO" : "Aeroporto de Cáceres"
+	},
+	{
+		"CD_AEROPORTO" : "CQA",
+		"SG_UE" : "91936",
+		"NM_AEROPORTO" : "Aeroporto de Canarana"
+	},
+	{
+		"CD_AEROPORTO" : "CFO",
+		"SG_UE" : "90280",
+		"NM_AEROPORTO" : "Aeroporto de Confresa"
+	},
+	{
+		"CD_AEROPORTO" : "DMT",
+		"SG_UE" : "90697",
+		"NM_AEROPORTO" : "Aeroporto de Diamantino"
+	},
+	{
+		"CD_AEROPORTO" : "JUA",
+		"SG_UE" : "98191",
+		"NM_AEROPORTO" : "Aeroporto Inácio Luís do Nascimento"
+	},
+	{
+		"CD_AEROPORTO" : "JIA",
+		"SG_UE" : "98310",
+		"NM_AEROPORTO" : "Aeroporto de Juína"
+	},
+	{
+		"CD_AEROPORTO" : "JRN",
+		"SG_UE" : "90581",
+		"NM_AEROPORTO" : "Aeroporto de Juruena"
+	},
+	{
+		"CD_AEROPORTO" : "MBK",
+		"SG_UE" : "90620",
+		"NM_AEROPORTO" : "Aeroporto de Matupá"
+	},
+	{
+		"CD_AEROPORTO" : "NOK",
+		"SG_UE" : "91952",
+		"NM_AEROPORTO" : "Aeroporto de Nova Xavantina"
+	},
+	{
+		"CD_AEROPORTO" : "ROO",
+		"SG_UE" : "91510",
+		"NM_AEROPORTO" : "Aeroporto de Rondonópolis"
+	},
+	{
+		"CD_AEROPORTO" : "SXO",
+		"SG_UE" : "91839",
+		"NM_AEROPORTO" : "Aeroporto de São Félix do Araguaia"
+	},
+	{
+		"CD_AEROPORTO" : "OPS",
+		"SG_UE" : "89850",
+		"NM_AEROPORTO" : "Aeroporto de Sinop"
+	},
+	{
+		"CD_AEROPORTO" : "TGQ",
+		"SG_UE" : "91855",
+		"NM_AEROPORTO" : "Aeroporto de Tangará da Serra"
+	},
+	{
+		"CD_AEROPORTO" : "VLP",
+		"SG_UE" : "98990",
+		"NM_AEROPORTO" : "Aeroporto de Vila Rica"
+	},
+	{
+		"CD_AEROPORTO" : "CGR",
+		"SG_UE" : "90514",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Campo Grande"
+	},
+	{
+		"CD_AEROPORTO" : "CMG",
+		"SG_UE" : "90638",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Corumbá"
+	},
+	{
+		"CD_AEROPORTO" : "PMG",
+		"SG_UE" : "91316",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Ponta Porã"
+	},
+	{
+		"CD_AEROPORTO" : "DOU",
+		"SG_UE" : "90735",
+		"NM_AEROPORTO" : "Aeroporto Regional de Dourados"
+	},
+	{
+		"CD_AEROPORTO" : "BYO",
+		"SG_UE" : "90433",
+		"NM_AEROPORTO" : "Aeroporto Regional de Bonito"
+	},
+	{
+		"CD_AEROPORTO" : "CSS",
+		"SG_UE" : "90573",
+		"NM_AEROPORTO" : "Aeroporto de Cassilândia"
+	},
+	{
+		"CD_AEROPORTO" : "PBB",
+		"SG_UE" : "91251",
+		"NM_AEROPORTO" : "Aeroporto de Paranaíba"
+	},
+	{
+		"CD_AEROPORTO" : "UDI",
+		"SG_UE" : "54038",
+		"NM_AEROPORTO" : "Aeroporto Ten.-Cel. Av. César Bombonato"
+	},
+	{
+		"CD_AEROPORTO" : "CNF",
+		"SG_UE" : "41920",
+		"NM_AEROPORTO" : "Aeroporto de Confins"
+	},
+	{
+		"CD_AEROPORTO" : "PLU",
+		"SG_UE" : "41238",
+		"NM_AEROPORTO" : "Aeroporto da Pampulha - Carlos Drummond de Andrade"
+	},
+	{
+		"CD_AEROPORTO" : "MOC",
+		"SG_UE" : "48658",
+		"NM_AEROPORTO" : "Aeroporto de Montes Claros"
+	},
+	{
+		"CD_AEROPORTO" : "POO",
+		"SG_UE" : "50350",
+		"NM_AEROPORTO" : "Embaixador Walther Moreira Salles"
+	},
+	{
+		"CD_AEROPORTO" : "UBA",
+		"SG_UE" : "54011",
+		"NM_AEROPORTO" : "Aeroporto Mário de Almeida Franco"
+	},
+	{
+		"CD_AEROPORTO" : "AAX",
+		"SG_UE" : "40797",
+		"NM_AEROPORTO" : "Aeroporto de Araxá"
+	},
+	{
+		"CD_AEROPORTO" : "QAK",
+		"SG_UE" : "41114",
+		"NM_AEROPORTO" : "Aeroporto de Barbacena"
+	},
+	{
+		"CD_AEROPORTO" : "QDF",
+		"SG_UE" : "43656",
+		"NM_AEROPORTO" : "Aeroporto das Bandeirinhas\/Conselheiro Lafaiete"
+	},
+	{
+		"CD_AEROPORTO" : "DTI",
+		"SG_UE" : "44318",
+		"NM_AEROPORTO" : "Aeroporto de Diamantina"
+	},
+	{
+		"CD_AEROPORTO" : "DIQ",
+		"SG_UE" : "44458",
+		"NM_AEROPORTO" : "Aeroporto de Divinópolis"
+	},
+	{
+		"CD_AEROPORTO" : "ESI",
+		"SG_UE" : "44857",
+		"NM_AEROPORTO" : "Aeroporto de Espinosa"
+	},
+	{
+		"CD_AEROPORTO" : "GVR",
+		"SG_UE" : "45535",
+		"NM_AEROPORTO" : "Aeroporto Coronel Altino Machado"
+	},
+	{
+		"CD_AEROPORTO" : "IPN",
+		"SG_UE" : "46256",
+		"NM_AEROPORTO" : "Aeroporto de Ipatinga"
+	},
+	{
+		"CD_AEROPORTO" : "PPY",
+		"SG_UE" : "50490",
+		"NM_AEROPORTO" : "Aeroporto de Pouso Alegre"
+	},
+	{
+		"CD_AEROPORTO" : "POJ",
+		"SG_UE" : "49590",
+		"NM_AEROPORTO" : "Aeroporto de Patos de Minas"
+	},
+	{
+		"CD_AEROPORTO" : "JDF",
+		"SG_UE" : "47333",
+		"NM_AEROPORTO" : "Aeroporto Francisco Álvares de Assis"
+	},
+	{
+		"CD_AEROPORTO" : "TFL",
+		"SG_UE" : "53716",
+		"NM_AEROPORTO" : "Aeroporto Juscelino Kubitschek"
+	},
+	{
+		"CD_AEROPORTO" : "VAG",
+		"SG_UE" : "54135",
+		"NM_AEROPORTO" : "Aeroporto de Varginha"
+	},
+	{
+		"CD_AEROPORTO" : "JDR",
+		"SG_UE" : "52493",
+		"NM_AEROPORTO" : "Aeroporto de São João del-Rei"
+	},
+	{
+		"CD_AEROPORTO" : "SSO",
+		"SG_UE" : "52736",
+		"NM_AEROPORTO" : "Aeroporto de São Lourenço"
+	},
+	{
+		"CD_AEROPORTO" : "IZA",
+		"SG_UE" : "51071",
+		"NM_AEROPORTO" : "Aeroporto Regional da Zona da Mata - Presidente Itamar Franco"
+	},
+	{
+		"CD_AEROPORTO" : "ATM",
+		"SG_UE" : "04111",
+		"NM_AEROPORTO" : "Aeroporto de Altamira"
+	},
+	{
+		"CD_AEROPORTO" : "BEL",
+		"SG_UE" : "04278",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Belém\/Val de Cans"
+	},
+	{
+		"CD_AEROPORTO" : "ZZZ",
+		"SG_UE" : "04278",
+		"NM_AEROPORTO" : "Aeroporto Júlio Cesar (Aeroporto de Belém)"
+	},
+	{
+		"CD_AEROPORTO" : "MAB",
+		"SG_UE" : "04839",
+		"NM_AEROPORTO" : "Aeroporto de Marabá"
+	},
+	{
+		"CD_AEROPORTO" : "CKS",
+		"SG_UE" : "05835",
+		"NM_AEROPORTO" : "Aeroporto de Carajás"
+	},
+	{
+		"CD_AEROPORTO" : "STM",
+		"SG_UE" : "05355",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Santarém"
+	},
+	{
+		"CD_AEROPORTO" : "CDJ",
+		"SG_UE" : "04537",
+		"NM_AEROPORTO" : "Aeroporto de Conceição do Araguaia"
+	},
+	{
+		"CD_AEROPORTO" : "ITB",
+		"SG_UE" : "04715",
+		"NM_AEROPORTO" : "Aeroporto de Itaituba"
+	},
+	{
+		"CD_AEROPORTO" : "MEU",
+		"SG_UE" : "04090",
+		"NM_AEROPORTO" : "Aeroporto de Monte Dourado"
+	},
+	{
+		"CD_AEROPORTO" : "ORX",
+		"SG_UE" : "05053",
+		"NM_AEROPORTO" : "Aeroporto de Oriximiná"
+	},
+	{
+		"CD_AEROPORTO" : "OIA",
+		"SG_UE" : "05959",
+		"NM_AEROPORTO" : "Aeroporto de Ourilândia do Norte"
+	},
+	{
+		"CD_AEROPORTO" : "TMT",
+		"SG_UE" : "05053",
+		"NM_AEROPORTO" : "Aeroporto de Porto Trombetas"
+	},
+	{
+		"CD_AEROPORTO" : "RDC",
+		"SG_UE" : "05673",
+		"NM_AEROPORTO" : "Aeroporto de Redenção"
+	},
+	{
+		"CD_AEROPORTO" : "CMP",
+		"SG_UE" : "05339",
+		"NM_AEROPORTO" : "Aeroporto de Santana do Araguaia"
+	},
+	{
+		"CD_AEROPORTO" : "SXX",
+		"SG_UE" : "05452",
+		"NM_AEROPORTO" : "Aeroporto de São Félix do Xingu"
+	},
+	{
+		"CD_AEROPORTO" : "TUR",
+		"SG_UE" : "05614",
+		"NM_AEROPORTO" : "Aeroporto de Tucuruí"
+	},
+	{
+		"CD_AEROPORTO" : "JPA",
+		"SG_UE" : "20516",
+		"NM_AEROPORTO" : "Aeroporto Internacional Presidente Castro Pinto"
+	},
+	{
+		"CD_AEROPORTO" : "CPV",
+		"SG_UE" : "19810",
+		"NM_AEROPORTO" : "Aeroporto Presidente João Suassuna"
+	},
+	{
+		"CD_AEROPORTO" : "CJZ",
+		"SG_UE" : "19755",
+		"NM_AEROPORTO" : "Aeroporto de Cajazeiras"
+	},
+	{
+		"CD_AEROPORTO" : "LDB",
+		"SG_UE" : "76678",
+		"NM_AEROPORTO" : "Aeroporto Governador José Richa"
+	},
+	{
+		"CD_AEROPORTO" : "CWB",
+		"SG_UE" : "78859",
+		"NM_AEROPORTO" : "Aeroporto Internacional Afonso Pena"
+	},
+	{
+		"CD_AEROPORTO" : "BFH",
+		"SG_UE" : "75353",
+		"NM_AEROPORTO" : "Aeroporto do Bacacheri"
+	},
+	{
+		"CD_AEROPORTO" : "IGU",
+		"SG_UE" : "75639",
+		"NM_AEROPORTO" : "Aeroporto Internacional Cataratas"
+	},
+	{
+		"CD_AEROPORTO" : "APU",
+		"SG_UE" : "74250",
+		"NM_AEROPORTO" : "Aeroporto de Apucarana"
+	},
+	{
+		"CD_AEROPORTO" : "APX",
+		"SG_UE" : "74276",
+		"NM_AEROPORTO" : "Aeroporto de Arapongas"
+	},
+	{
+		"CD_AEROPORTO" : "AAG",
+		"SG_UE" : "74292",
+		"NM_AEROPORTO" : "Aeroporto de Arapoti"
+	},
+	{
+		"CD_AEROPORTO" : "CBW",
+		"SG_UE" : "74837",
+		"NM_AEROPORTO" : "Aeroporto de Campo Mourão"
+	},
+	{
+		"CD_AEROPORTO" : "CAC",
+		"SG_UE" : "74934",
+		"NM_AEROPORTO" : "Aeroporto de Cascavel"
+	},
+	{
+		"CD_AEROPORTO" : "QAC",
+		"SG_UE" : "74950",
+		"NM_AEROPORTO" : "Aeroporto de Castro"
+	},
+	{
+		"CD_AEROPORTO" : "CKO",
+		"SG_UE" : "75256",
+		"NM_AEROPORTO" : "Aeroporto de Cornélio Procópio"
+	},
+	{
+		"CD_AEROPORTO" : "QGA",
+		"SG_UE" : "75710",
+		"NM_AEROPORTO" : "Aeroporto de Guaíra"
+	},
+	{
+		"CD_AEROPORTO" : "GPB",
+		"SG_UE" : "75833",
+		"NM_AEROPORTO" : "Aeroporto de Guarapuava"
+	},
+	{
+		"CD_AEROPORTO" : "MGF",
+		"SG_UE" : "76910",
+		"NM_AEROPORTO" : "Aeroporto de Maringá"
+	},
+	{
+		"CD_AEROPORTO" : "PVI",
+		"SG_UE" : "77496",
+		"NM_AEROPORTO" : "Aeroporto de Paranavaí"
+	},
+	{
+		"CD_AEROPORTO" : "PTO",
+		"SG_UE" : "77518",
+		"NM_AEROPORTO" : "Aeroporto de Pato Branco"
+	},
+	{
+		"CD_AEROPORTO" : "PGZ",
+		"SG_UE" : "77771",
+		"NM_AEROPORTO" : "Aeroporto de Ponta Grossa"
+	},
+	{
+		"CD_AEROPORTO" : "TEC",
+		"SG_UE" : "79154",
+		"NM_AEROPORTO" : "Aeroporto de Telêmaco Borba"
+	},
+	{
+		"CD_AEROPORTO" : "TOW",
+		"SG_UE" : "79278",
+		"NM_AEROPORTO" : "Aeroporto de Toledo"
+	},
+	{
+		"CD_AEROPORTO" : "UMU",
+		"SG_UE" : "79359",
+		"NM_AEROPORTO" : "Aeroporto de Umuarama"
+	},
+	{
+		"CD_AEROPORTO" : "QVB",
+		"SG_UE" : "79375",
+		"NM_AEROPORTO" : "Aeroporto de União da Vitória"
+	},
+	{
+		"CD_AEROPORTO" : "FBE",
+		"SG_UE" : "75655",
+		"NM_AEROPORTO" : "Aeroporto Paulo Abdala"
+	},
+	{
+		"CD_AEROPORTO" : "PNZ",
+		"SG_UE" : "25216",
+		"NM_AEROPORTO" : "Aeroporto de Petrolina"
+	},
+	{
+		"CD_AEROPORTO" : "REC",
+		"SG_UE" : "25313",
+		"NM_AEROPORTO" : "Aeroporto Internacional dos Guararapes"
+	},
+	{
+		"CD_AEROPORTO" : "FEN",
+		"SG_UE" : "30015",
+		"NM_AEROPORTO" : "Aeroporto de Fernando de Noronha"
+	},
+	{
+		"CD_AEROPORTO" : "CAU",
+		"SG_UE" : "23817",
+		"NM_AEROPORTO" : "Aeroporto de Caruaru"
+	},
+	{
+		"CD_AEROPORTO" : "QGP",
+		"SG_UE" : "24198",
+		"NM_AEROPORTO" : "Aeroporto de Garanhuns"
+	},
+	{
+		"CD_AEROPORTO" : "PHB",
+		"SG_UE" : "11533",
+		"NM_AEROPORTO" : "Aeroporto Internacional Prefeito Dr.João Silva Filho"
+	},
+	{
+		"CD_AEROPORTO" : "THE",
+		"SG_UE" : "12190",
+		"NM_AEROPORTO" : "Aeroporto Senador Petrônio Portella"
+	},
+	{
+		"CD_AEROPORTO" : "FLB",
+		"SG_UE" : "10774",
+		"NM_AEROPORTO" : "Aeroporto de Floriano"
+	},
+	{
+		"CD_AEROPORTO" : "GDP",
+		"SG_UE" : "10898",
+		"NM_AEROPORTO" : "Aeroporto de Guadalupe"
+	},
+	{
+		"CD_AEROPORTO" : "PCS",
+		"SG_UE" : "11592",
+		"NM_AEROPORTO" : "Aeroporto de Picos"
+	},
+	{
+		"CD_AEROPORTO" : "SRN",
+		"SG_UE" : "12114",
+		"NM_AEROPORTO" : "Aeroporto de São Raimundo Nonato"
+	},
+	{
+		"CD_AEROPORTO" : "CAW",
+		"SG_UE" : "58190",
+		"NM_AEROPORTO" : "Aeroporto de Campos dos Goytacazes"
+	},
+	{
+		"CD_AEROPORTO" : "MEA",
+		"SG_UE" : "58475",
+		"NM_AEROPORTO" : "Aeroporto de Macaé"
+	},
+	{
+		"CD_AEROPORTO" : "GIG",
+		"SG_UE" : "60011",
+		"NM_AEROPORTO" : "Aeroporto Internacional do Rio de Janeiro - Antônio Carlos Jobim"
+	},
+	{
+		"CD_AEROPORTO" : "SDU",
+		"SG_UE" : "60011",
+		"NM_AEROPORTO" : "Aeroporto Santos Dumont"
+	},
+	{
+		"CD_AEROPORTO" : "CFB",
+		"SG_UE" : "58130",
+		"NM_AEROPORTO" : "Aeroporto de Cabo Frio"
+	},
+	{
+		"CD_AEROPORTO" : "BZC",
+		"SG_UE" : "58408",
+		"NM_AEROPORTO" : "Aeroporto de Búzios"
+	},
+	{
+		"CD_AEROPORTO" : "ITP",
+		"SG_UE" : "58432",
+		"NM_AEROPORTO" : "Aeroporto de Itaperuna"
+	},
+	{
+		"CD_AEROPORTO" : "QNV",
+		"SG_UE" : "58696",
+		"NM_AEROPORTO" : "Aeroporto de Nova Iguaçu"
+	},
+	{
+		"CD_AEROPORTO" : "NAT",
+		"SG_UE" : "17795",
+		"NM_AEROPORTO" : "Aeroporto Internacional Augusto Severo"
+	},
+	{
+		"CD_AEROPORTO" : "QCP",
+		"SG_UE" : "16616",
+		"NM_AEROPORTO" : "Aeroporto de Currais Novos"
+	},
+	{
+		"CD_AEROPORTO" : "MVF",
+		"SG_UE" : "17590",
+		"NM_AEROPORTO" : "Aeroporto Dix-Sept Rosado"
+	},
+	{
+		"CD_AEROPORTO" : "BGX",
+		"SG_UE" : "85316",
+		"NM_AEROPORTO" : "Aeroporto Internacional Comandante Gustavo Kraemer"
+	},
+	{
+		"CD_AEROPORTO" : "PET",
+		"SG_UE" : "87912",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Pelotas"
+	},
+	{
+		"CD_AEROPORTO" : "POA",
+		"SG_UE" : "88013",
+		"NM_AEROPORTO" : "Aeroporto Internacional Salgado Filho"
+	},
+	{
+		"CD_AEROPORTO" : "URG",
+		"SG_UE" : "89516",
+		"NM_AEROPORTO" : "Aeroporto Internacional Rubem Berta"
+	},
+	{
+		"CD_AEROPORTO" : "ALQ",
+		"SG_UE" : "85073",
+		"NM_AEROPORTO" : "Aeroporto Alegrete Novo"
+	},
+	{
+		"CD_AEROPORTO" : "QDB",
+		"SG_UE" : "85596",
+		"NM_AEROPORTO" : "Aeroporto de Cachoeira do Sul"
+	},
+	{
+		"CD_AEROPORTO" : "QCN",
+		"SG_UE" : "85855",
+		"NM_AEROPORTO" : "Aeroporto de Canela"
+	},
+	{
+		"CD_AEROPORTO" : "QNS",
+		"SG_UE" : "85898",
+		"NM_AEROPORTO" : "Aeroporto de Canoas"
+	},
+	{
+		"CD_AEROPORTO" : "QRE",
+		"SG_UE" : "85910",
+		"NM_AEROPORTO" : "Aeroporto de Carazinho"
+	},
+	{
+		"CD_AEROPORTO" : "CXJ",
+		"SG_UE" : "85995",
+		"NM_AEROPORTO" : "Aeroporto Regional de Caxias do Sul Hugo Cantergiani"
+	},
+	{
+		"CD_AEROPORTO" : "ERM",
+		"SG_UE" : "86371",
+		"NM_AEROPORTO" : "Aeroporto de Erechim"
+	},
+	{
+		"CD_AEROPORTO" : "HRZ",
+		"SG_UE" : "86916",
+		"NM_AEROPORTO" : "Aeroporto de Horizontina"
+	},
+	{
+		"CD_AEROPORTO" : "IJU",
+		"SG_UE" : "87050",
+		"NM_AEROPORTO" : "Aeroporto de Ijuí"
+	},
+	{
+		"CD_AEROPORTO" : "ITQ",
+		"SG_UE" : "87130",
+		"NM_AEROPORTO" : "Aeroporto de Itaqui"
+	},
+	{
+		"CD_AEROPORTO" : "QGF",
+		"SG_UE" : "87491",
+		"NM_AEROPORTO" : "Aeroporto de Montenegro"
+	},
+	{
+		"CD_AEROPORTO" : "QHV",
+		"SG_UE" : "87718",
+		"NM_AEROPORTO" : "Aeroporto de Novo Hamburgo"
+	},
+	{
+		"CD_AEROPORTO" : "PFB",
+		"SG_UE" : "87858",
+		"NM_AEROPORTO" : "Aeroporto Lauro Kurtz"
+	},
+	{
+		"CD_AEROPORTO" : "RIG",
+		"SG_UE" : "88153",
+		"NM_AEROPORTO" : "Aeroporto de Rio Grande"
+	},
+	{
+		"CD_AEROPORTO" : "CSU",
+		"SG_UE" : "88390",
+		"NM_AEROPORTO" : "Aeroporto de Santa Cruz do Sul"
+	},
+	{
+		"CD_AEROPORTO" : "RIA",
+		"SG_UE" : "88412",
+		"NM_AEROPORTO" : "Aeroporto de Santa Maria"
+	},
+	{
+		"CD_AEROPORTO" : "SRA",
+		"SG_UE" : "88471",
+		"NM_AEROPORTO" : "Aeroporto de Santa Rosa"
+	},
+	{
+		"CD_AEROPORTO" : "LVB",
+		"SG_UE" : "88455",
+		"NM_AEROPORTO" : "Aeroporto de Santana do Livramento"
+	},
+	{
+		"CD_AEROPORTO" : "GEL",
+		"SG_UE" : "88536",
+		"NM_AEROPORTO" : "Aeroporto de Santo Ângelo"
+	},
+	{
+		"CD_AEROPORTO" : "QOJ",
+		"SG_UE" : "88633",
+		"NM_AEROPORTO" : "Aeroporto de São Borja"
+	},
+	{
+		"CD_AEROPORTO" : "SQY",
+		"SG_UE" : "88790",
+		"NM_AEROPORTO" : "Aeroporto de São Lourenço do Sul"
+	},
+	{
+		"CD_AEROPORTO" : "TSQ",
+		"SG_UE" : "89338",
+		"NM_AEROPORTO" : "Aeroporto de Torres"
+	},
+	{
+		"CD_AEROPORTO" : "PVH",
+		"SG_UE" : "00035",
+		"NM_AEROPORTO" : "Aeroporto Internacional Governador Jorge Teixeira"
+	},
+	{
+		"CD_AEROPORTO" : "JPR",
+		"SG_UE" : "00051",
+		"NM_AEROPORTO" : "Aeroporto José Coleto"
+	},
+	{
+		"CD_AEROPORTO" : "BVH",
+		"SG_UE" : "00132",
+		"NM_AEROPORTO" : "Aeroporto Brigadeiro Camarão"
+	},
+	{
+		"CD_AEROPORTO" : "OAL",
+		"SG_UE" : "00094",
+		"NM_AEROPORTO" : "Aeroporto de Cacoal"
+	},
+	{
+		"CD_AEROPORTO" : "CQS",
+		"SG_UE" : "00213",
+		"NM_AEROPORTO" : "Aeroporto de Costa Marques"
+	},
+	{
+		"CD_AEROPORTO" : "GJM",
+		"SG_UE" : "00019",
+		"NM_AEROPORTO" : "Aeroporto de Guajará-Mirim"
+	},
+	{
+		"CD_AEROPORTO" : "PBQ",
+		"SG_UE" : "00116",
+		"NM_AEROPORTO" : "Aeroporto de Pimenta Bueno"
+	},
+	{
+		"CD_AEROPORTO" : "BVB",
+		"SG_UE" : "03018",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Boa Vista - Atlas Brasil"
+	},
+	{
+		"CD_AEROPORTO" : "FLN",
+		"SG_UE" : "81051",
+		"NM_AEROPORTO" : "Aeroporto Internacional Hercílio Luz"
+	},
+	{
+		"CD_AEROPORTO" : "NVT",
+		"SG_UE" : "82210",
+		"NM_AEROPORTO" : "Aeroporto Internacional Ministro Victor Konder"
+	},
+	{
+		"CD_AEROPORTO" : "JOI",
+		"SG_UE" : "81795",
+		"NM_AEROPORTO" : "Aeroporto Lauro Carneiro de Loyola"
+	},
+	{
+		"CD_AEROPORTO" : "CCM",
+		"SG_UE" : "81060",
+		"NM_AEROPORTO" : "Aeroporto de Forquilhinha"
+	},
+	{
+		"CD_AEROPORTO" : "BNU",
+		"SG_UE" : "80470",
+		"NM_AEROPORTO" : "Aeroporto de Blumenau"
+	},
+	{
+		"CD_AEROPORTO" : "CFC",
+		"SG_UE" : "80578",
+		"NM_AEROPORTO" : "Aeroporto de Caçador"
+	},
+	{
+		"CD_AEROPORTO" : "XAP",
+		"SG_UE" : "80810",
+		"NM_AEROPORTO" : "Aeroporto de Chapecó"
+	},
+	{
+		"CD_AEROPORTO" : "CCI",
+		"SG_UE" : "80837",
+		"NM_AEROPORTO" : "Aeroporto de Concórdia"
+	},
+	{
+		"CD_AEROPORTO" : "QCR",
+		"SG_UE" : "80934",
+		"NM_AEROPORTO" : "Aeroporto de Curitibanos"
+	},
+	{
+		"CD_AEROPORTO" : "JCB",
+		"SG_UE" : "81779",
+		"NM_AEROPORTO" : "Aeroporto de Joaçaba"
+	},
+	{
+		"CD_AEROPORTO" : "LAJ",
+		"SG_UE" : "81833",
+		"NM_AEROPORTO" : "Aeroporto de Lages"
+	},
+	{
+		"CD_AEROPORTO" : "QMF",
+		"SG_UE" : "81990",
+		"NM_AEROPORTO" : "Aeroporto de Mafra"
+	},
+	{
+		"CD_AEROPORTO" : "SQX",
+		"SG_UE" : "83399",
+		"NM_AEROPORTO" : "Aeroporto de São Miguel do Oeste"
+	},
+	{
+		"CD_AEROPORTO" : "VIA",
+		"SG_UE" : "83798",
+		"NM_AEROPORTO" : "Aeroporto de Videira"
+	},
+	{
+		"CD_AEROPORTO" : "AXE",
+		"SG_UE" : "83836",
+		"NM_AEROPORTO" : "Aeroporto de Xanxerê"
+	},
+	{
+		"CD_AEROPORTO" : "MAE",
+		"SG_UE" : "71072",
+		"NM_AEROPORTO" : "Aeroporto Campo de Marte"
+	},
+	{
+		"CD_AEROPORTO" : "CGH",
+		"SG_UE" : "71072",
+		"NM_AEROPORTO" : "Aeroporto de Congonhas\/São Paulo"
+	},
+	{
+		"CD_AEROPORTO" : "GRU",
+		"SG_UE" : "64777",
+		"NM_AEROPORTO" : "Aeroporto Internacional de São Paulo-Guarulhos"
+	},
+	{
+		"CD_AEROPORTO" : "VCP",
+		"SG_UE" : "62910",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Viracopos-Campinas"
+	},
+	{
+		"CD_AEROPORTO" : "SJK",
+		"SG_UE" : "70998",
+		"NM_AEROPORTO" : "Aeroporto de São José dos Campos"
+	},
+	{
+		"CD_AEROPORTO" : "CPQ",
+		"SG_UE" : "62910",
+		"NM_AEROPORTO" : "Aeroporto dos Amarais"
+	},
+	{
+		"CD_AEROPORTO" : "ARU",
+		"SG_UE" : "61557",
+		"NM_AEROPORTO" : "Aeroporto de Araçatuba"
+	},
+	{
+		"CD_AEROPORTO" : "AQA",
+		"SG_UE" : "61638",
+		"NM_AEROPORTO" : "Aeroporto de Araraquara"
+	},
+	{
+		"CD_AEROPORTO" : "AIF",
+		"SG_UE" : "61794",
+		"NM_AEROPORTO" : "Aeroporto de Assis"
+	},
+	{
+		"CD_AEROPORTO" : "QVP",
+		"SG_UE" : "61891",
+		"NM_AEROPORTO" : "Aeroporto de Avaré-Arandu"
+	},
+	{
+		"CD_AEROPORTO" : "BAT",
+		"SG_UE" : "62090",
+		"NM_AEROPORTO" : "Aeroporto de Barretos"
+	},
+	{
+		"CD_AEROPORTO" : "BAU",
+		"SG_UE" : "62197",
+		"NM_AEROPORTO" : "Aeroporto de Bauru"
+	},
+	{
+		"CD_AEROPORTO" : "JTC",
+		"SG_UE" : "62197",
+		"NM_AEROPORTO" : "Aeroporto de Bauru-Arealva"
+	},
+	{
+		"CD_AEROPORTO" : "BJP",
+		"SG_UE" : "62510",
+		"NM_AEROPORTO" : "Aeroporto de Bragança Paulista"
+	},
+	{
+		"CD_AEROPORTO" : "QDC",
+		"SG_UE" : "63894",
+		"NM_AEROPORTO" : "Aeroporto de Dracena"
+	},
+	{
+		"CD_AEROPORTO" : "FRC",
+		"SG_UE" : "64254",
+		"NM_AEROPORTO" : "Aeroporto de Franca"
+	},
+	{
+		"CD_AEROPORTO" : "QDV",
+		"SG_UE" : "66192",
+		"NM_AEROPORTO" : "Aeroporto de Jundiaí"
+	},
+	{
+		"CD_AEROPORTO" : "LIP",
+		"SG_UE" : "66435",
+		"NM_AEROPORTO" : "Aeroporto de Lins"
+	},
+	{
+		"CD_AEROPORTO" : "MII",
+		"SG_UE" : "66818",
+		"NM_AEROPORTO" : "Aeroporto de Marília"
+	},
+	{
+		"CD_AEROPORTO" : "OUS",
+		"SG_UE" : "67954",
+		"NM_AEROPORTO" : "Aeroporto de Ourinhos"
+	},
+	{
+		"CD_AEROPORTO" : "QHB",
+		"SG_UE" : "68756",
+		"NM_AEROPORTO" : "Aeroporto de Piracicaba"
+	},
+	{
+		"CD_AEROPORTO" : "PPB",
+		"SG_UE" : "69299",
+		"NM_AEROPORTO" : "Aeroporto de Presidente Prudente"
+	},
+	{
+		"CD_AEROPORTO" : "RAO",
+		"SG_UE" : "69698",
+		"NM_AEROPORTO" : "Aeroporto Leite Lopes"
+	},
+	{
+		"CD_AEROPORTO" : "QSC",
+		"SG_UE" : "70793",
+		"NM_AEROPORTO" : "Aeroporto de São Carlos"
+	},
+	{
+		"CD_AEROPORTO" : "SJP",
+		"SG_UE" : "70971",
+		"NM_AEROPORTO" : "Aeroporto de São José do Rio Preto"
+	},
+	{
+		"CD_AEROPORTO" : "SOD",
+		"SG_UE" : "71455",
+		"NM_AEROPORTO" : "Aeroporto de Sorocaba"
+	},
+	{
+		"CD_AEROPORTO" : "TUZ",
+		"SG_UE" : "72010",
+		"NM_AEROPORTO" : "Aeroporto de Tupã"
+	},
+	{
+		"CD_AEROPORTO" : "UBT",
+		"SG_UE" : "72095",
+		"NM_AEROPORTO" : "Aeroporto de Ubatuba"
+	},
+	{
+		"CD_AEROPORTO" : "VOT",
+		"SG_UE" : "72451",
+		"NM_AEROPORTO" : "Aeroporto de Votuporanga"
+	},
+	{
+		"CD_AEROPORTO" : "RWS",
+		"SG_UE" : "61310",
+		"NM_AEROPORTO" : "Aeroporto de Americana"
+	},
+	{
+		"CD_AEROPORTO" : "GUJ",
+		"SG_UE" : "64696",
+		"NM_AEROPORTO" : "Aeroporto de Guaratinguetá"
+	},
+	{
+		"CD_AEROPORTO" : "QIQ",
+		"SG_UE" : "69795",
+		"NM_AEROPORTO" : "Aeroporto de Rio Claro"
+	},
+	{
+		"CD_AEROPORTO" : "AJU",
+		"SG_UE" : "31054",
+		"NM_AEROPORTO" : "Aeroporto Internacional de Aracaju"
+	},
+	{
+		"CD_AEROPORTO" : "PMW",
+		"SG_UE" : "73440",
+		"NM_AEROPORTO" : "Aeroporto de Palmas"
+	},
+	{
+		"CD_AEROPORTO" : "AUX",
+		"SG_UE" : "92410",
+		"NM_AEROPORTO" : "Aeroporto de Araguaína"
+	},
+	{
+		"CD_AEROPORTO" : "AAI",
+		"SG_UE" : "92479",
+		"NM_AEROPORTO" : "Aeroporto de Arraias"
+	},
+	{
+		"CD_AEROPORTO" : "DNO",
+		"SG_UE" : "93416",
+		"NM_AEROPORTO" : "Aeroporto de Dianópolis"
+	},
+	{
+		"CD_AEROPORTO" : "GRP",
+		"SG_UE" : "93858",
+		"NM_AEROPORTO" : "Aeroporto de Gurupi"
+	},
+	{
+		"CD_AEROPORTO" : "PNB",
+		"SG_UE" : "95591",
+		"NM_AEROPORTO" : "Aeroporto de Porto Nacional"
+	},
+	{
+		"CD_AEROPORTO" : "QHN",
+		"SG_UE" : "96156",
+		"NM_AEROPORTO" : "Aeroporto de Taguatinga"
+	},
+	{
+		"CD_AEROPORTO" : "VDC",
+		"SG_UE" : "39659",
+		"NM_AEROPORTO" : "Aeroporto Pedro Otacílio Figueiredo"
+	},
+	{
+		"CD_AEROPORTO" : "PIN",
+		"SG_UE" : "02690",
+		"NM_AEROPORTO" : "Aeroporto Júlio Belém"
+	},
+	{
+		"CD_AEROPORTO" : "BRA",
+		"SG_UE" : "33634",
+		"NM_AEROPORTO" : "Aeroporto de Barreiras"
+	},
+	{
+		"CD_AEROPORTO" : "BPS",
+		"SG_UE" : "38075",
+		"NM_AEROPORTO" : "Aeroporto de Porto Seguro"
+	},
+	{
+		"CD_AEROPORTO" : "SJL",
+		"SG_UE" : "02836",
+		"NM_AEROPORTO" : "Aeroporto Regional de Uaupés"
+	},
+	{
+		"CD_AEROPORTO" : "FEC",
+		"SG_UE" : "35157",
+		"NM_AEROPORTO" : "Aeroporto de Feira de Santana - Governador João Durval Carneiro"
+	},
+	{
+		"CD_AEROPORTO" : "LEC",
+		"SG_UE" : "36870",
+		"NM_AEROPORTO" : "Aeroporto de Lençóis - Coronel Horácio de Matos"
+	},
+	{
+		"CD_AEROPORTO" : "VAL",
+		"SG_UE" : "39578",
+		"NM_AEROPORTO" : "Aeroporto de Valença"
+	},
+	{
+		"CD_AEROPORTO" : "TXF",
+		"SG_UE" : "39934",
+		"NM_AEROPORTO" : "Aeroporto de Teixeira de Freitas - 9 de Maio"
+	},
+	{
+		"CD_AEROPORTO" : "JJD",
+		"SG_UE" : "15890",
+		"NM_AEROPORTO" : "Aeroporto de Jericoacoara"
+	},
+	{
+		"CD_AEROPORTO" : "ARX",
+		"SG_UE" : "13218",
+		"NM_AEROPORTO" : "Aeroporto de Aracati"
+	},
+	{
+		"CD_AEROPORTO" : "TLZ",
+		"SG_UE" : "93017",
+		"NM_AEROPORTO" : "Aeroporto de Catalão"
+	},
+	{
+		"CD_AEROPORTO" : "ITR",
+		"SG_UE" : "94250",
+		"NM_AEROPORTO" : "Aeroporto de Itumbiara"
+	},
+	{
+		"CD_AEROPORTO" : "SQM",
+		"SG_UE" : "96016",
+		"NM_AEROPORTO" : "Aeroporto de São Miguel do Araguaia"
+	},
+	{
+		"CD_AEROPORTO" : "BRB",
+		"SG_UE" : "07331",
+		"NM_AEROPORTO" : "Aeroporto de Barreirinhas"
+	},
+	{
+		"CD_AEROPORTO" : "PIV",
+		"SG_UE" : "50237",
+		"NM_AEROPORTO" : "Aeroporto de Pirapora"
+	},
+	{
+		"CD_AEROPORTO" : "BAZ",
+		"SG_UE" : "02097",
+		"NM_AEROPORTO" : "Aeroporto de Barcelos"
+	},
+	{
+		"CD_AEROPORTO" : "BCR",
+		"SG_UE" : "02151",
+		"NM_AEROPORTO" : "Aeroporto Boca do Acre"
+	},
+	{
+		"CD_AEROPORTO" : "RBB",
+		"SG_UE" : "02178",
+		"NM_AEROPORTO" : "Aeroporto de Borba"
+	},
+	{
+		"CD_AEROPORTO" : "CAF",
+		"SG_UE" : "02216",
+		"NM_AEROPORTO" : "Aeroporto de Carauari"
+	},
+	{
+		"CD_AEROPORTO" : "CIZ",
+		"SG_UE" : "02259",
+		"NM_AEROPORTO" : "Aeroporto Regional de Coari"
+	},
+	{
+		"CD_AEROPORTO" : "ERN",
+		"SG_UE" : "02291",
+		"NM_AEROPORTO" : "Aeroporto Regional de Eirunepé"
+	},
+	{
+		"CD_AEROPORTO" : "FBA",
+		"SG_UE" : "02330",
+		"NM_AEROPORTO" : "Aeroporto de Fonte Boa"
+	},
+	{
+		"CD_AEROPORTO" : "HUW",
+		"SG_UE" : "02356",
+		"NM_AEROPORTO" : "Aeroporto de Humaitá"
+	},
+	{
+		"CD_AEROPORTO" : "ITA",
+		"SG_UE" : "02410",
+		"NM_AEROPORTO" : "Aeroporto de Itacoatiara"
+	},
+	{
+		"CD_AEROPORTO" : "LBR",
+		"SG_UE" : "02518",
+		"NM_AEROPORTO" : "Aeroporto Regional de Lábrea"
+	},
+	{
+		"CD_AEROPORTO" : "MNX",
+		"SG_UE" : "02577",
+		"NM_AEROPORTO" : "Aeroporto de Manicoré"
+	},
+	{
+		"CD_AEROPORTO" : "MBZ",
+		"SG_UE" : "02615",
+		"NM_AEROPORTO" : "Aeroporto Regional de Maués"
+	},
+	{
+		"CD_AEROPORTO" : "NVP",
+		"SG_UE" : "02674",
+		"NM_AEROPORTO" : "Aeroporto de Novo Aripuanã"
+	},
+	{
+		"CD_AEROPORTO" : "IRZ",
+		"SG_UE" : "02372",
+		"NM_AEROPORTO" : "Aeroporto de Tapuruquara"
+	},
+	{
+		"CD_AEROPORTO" : "IPG",
+		"SG_UE" : "02739",
+		"NM_AEROPORTO" : "Aeroporto Ipiranga"
+	},
+	{
+		"CD_AEROPORTO" : "OLC",
+		"SG_UE" : "02755",
+		"NM_AEROPORTO" : "Aeroporto de São Paulo de Olivença"
+	},
+	{
+		"CD_AEROPORTO" : "NTM",
+		"SG_UE" : "94617",
+		"NM_AEROPORTO" : "Aeroporto de Miracema do Tocantins"
+	},
+	{
+		"CD_AEROPORTO" : "QGC",
+		"SG_UE" : "66370",
+		"NM_AEROPORTO" : "Aeroporto de Lençóis Paulista"
+	},
+	{
+		"CD_AEROPORTO" : "JJG",
+		"SG_UE" : "81736",
+		"NM_AEROPORTO" : "Aeroporto Regional Sul"
+	},
+	{
+		"CD_AEROPORTO" : "SMT",
+		"SG_UE" : "98930",
+		"NM_AEROPORTO" : "Aeroporto Regional de Sorriso"
+	},
+	{
+		"CD_AEROPORTO" : "TJL",
+		"SG_UE" : "91650",
+		"NM_AEROPORTO" : "Aeroporto Plínio Alarcon"
+	},
+	{
+		"CD_AEROPORTO" : "BQQ",
+		"SG_UE" : "33537",
+		"NM_AEROPORTO" : "Aeroporto de Barra"
+	},
+	{
+		"CD_AEROPORTO" : "BVM",
+		"SG_UE" : "33677",
+		"NM_AEROPORTO" : "Aeroporto de Belmonte"
+	},
+	{
+		"CD_AEROPORTO" : "BMS",
+		"SG_UE" : "33910",
+		"NM_AEROPORTO" : "Aeroporto Sócrates Mariani Bittencourt"
+	},
+	{
+		"CD_AEROPORTO" : "CNV",
+		"SG_UE" : "34258",
+		"NM_AEROPORTO" : "Aeroporto Sócrates Rezende"
+	},
+	{
+		"CD_AEROPORTO" : "CRQ",
+		"SG_UE" : "34371",
+		"NM_AEROPORTO" : "Aeroporto de Caravelas"
+	},
+	{
+		"CD_AEROPORTO" : "GNM",
+		"SG_UE" : "35335",
+		"NM_AEROPORTO" : "Aeroporto Municipal Isaac Moura Rocha"
+	},
+	{
+		"CD_AEROPORTO" : "IPU",
+		"SG_UE" : "35793",
+		"NM_AEROPORTO" : "Aeroporto de Ipiaú"
+	},
+	{
+		"CD_AEROPORTO" : "IRE",
+		"SG_UE" : "35939",
+		"NM_AEROPORTO" : "Aeroporto de Irecê"
+	},
+	{
+		"CD_AEROPORTO" : "ITN",
+		"SG_UE" : "35971",
+		"NM_AEROPORTO" : "Aeroporto Tertuliano Guedes de Pinho"
+	},
+	{
+		"CD_AEROPORTO" : "ITE",
+		"SG_UE" : "36471",
+		"NM_AEROPORTO" : "Aeroporto de Ituberá"
+	},
+	{
+		"CD_AEROPORTO" : "JCM",
+		"SG_UE" : "36510",
+		"NM_AEROPORTO" : "Aeroporto de Jacobina "
+	},
+	{
+		"CD_AEROPORTO" : "JEQ",
+		"SG_UE" : "36617",
+		"NM_AEROPORTO" : "Aeroporto de Jequié"
+	},
+	{
+		"CD_AEROPORTO" : "MVS",
+		"SG_UE" : "37419",
+		"NM_AEROPORTO" : "Aeroporto de Mucuri"
+	},
+	{
+		"CD_AEROPORTO" : "PDF",
+		"SG_UE" : "38113",
+		"NM_AEROPORTO" : "Aeroporto de Prado"
+	},
+	{
+		"CD_AEROPORTO" : "UNA",
+		"SG_UE" : "39497",
+		"NM_AEROPORTO" : "Aeroporto de Una-Comandatuba"
+	},
+	{
+		"CD_AEROPORTO" : "SET",
+		"SG_UE" : "25771",
+		"NM_AEROPORTO" : "Aeroporto de Serra Talhada"
+	},
+	{
+		"CD_AEROPORTO" : "QRZ",
+		"SG_UE" : "58831",
+		"NM_AEROPORTO" : "Aeroporto de Resende"
+	}
+]}

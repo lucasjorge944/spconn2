@@ -1,0 +1,27 @@
+{
+"FONTE_AVALIACAO": [
+	{
+		"CD_FONTE_AVALIACAO" : 1,
+		"DS_FONTE_AVALIACAO" : "Outra"
+	},
+	{
+		"CD_FONTE_AVALIACAO" : 2,
+		"DS_FONTE_AVALIACAO" : "FIPE"
+	},
+	{
+		"CD_FONTE_AVALIACAO" : 3,
+		"DS_FONTE_AVALIACAO" : "Outros contratos"
+	},
+	{
+		"CD_FONTE_AVALIACAO" : 4,
+		"DS_FONTE_AVALIACAO" : "Compras \/ Contratações \/ faturas anteriores"
+	},
+	{
+		"CD_FONTE_AVALIACAO" : 5,
+		"DS_FONTE_AVALIACAO" : "Rateio de conta \/ fatura"
+	},
+	{
+		"CD_FONTE_AVALIACAO" : 6,
+		"DS_FONTE_AVALIACAO" : "Salário usual de mercado"
+	}
+]}

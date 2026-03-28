@@ -1,0 +1,128 @@
+{
+"TIPO_BEM": [
+	{
+		"CD_TIPO_BEM" : 22,
+		"NM_TIPO_BEM" : "Aeronave",
+		"DS_ORDEM" : "Aeronave"
+	},
+	{
+		"CD_TIPO_BEM" : 11,
+		"NM_TIPO_BEM" : "Apartamento",
+		"DS_ORDEM" : "Apartamento"
+	},
+	{
+		"CD_TIPO_BEM" : 24,
+		"NM_TIPO_BEM" : "Bem relacionado com o exercício da atividade autônoma",
+		"DS_ORDEM" : "Bem relacionado com o exercicio da atividade autonoma"
+	},
+	{
+		"CD_TIPO_BEM" : 17,
+		"NM_TIPO_BEM" : "Benfeitorias",
+		"DS_ORDEM" : "Benfeitorias"
+	},
+	{
+		"CD_TIPO_BEM" : 12,
+		"NM_TIPO_BEM" : "Casa",
+		"DS_ORDEM" : "Casa"
+	},
+	{
+		"CD_TIPO_BEM" : 95,
+		"NM_TIPO_BEM" : "Consórcio não contemplado",
+		"DS_ORDEM" : "Consorcio nao contemplado"
+	},
+	{
+		"CD_TIPO_BEM" : 16,
+		"NM_TIPO_BEM" : "Construção",
+		"DS_ORDEM" : "Construcao"
+	},
+	{
+		"CD_TIPO_BEM" : 93,
+		"NM_TIPO_BEM" : "Direito de autor, de inventor e patente",
+		"DS_ORDEM" : "Direito de autor, de inventor e patente"
+	},
+	{
+		"CD_TIPO_BEM" : 94,
+		"NM_TIPO_BEM" : "Direito de lavra e assemelhado",
+		"DS_ORDEM" : "Direito de lavra e assemelhado"
+	},
+	{
+		"CD_TIPO_BEM" : 23,
+		"NM_TIPO_BEM" : "Embarcação",
+		"DS_ORDEM" : "Embarcacao"
+	},
+	{
+		"CD_TIPO_BEM" : 3,
+		"NM_TIPO_BEM" : "Galpão",
+		"DS_ORDEM" : "Galpao"
+	},
+	{
+		"CD_TIPO_BEM" : 25,
+		"NM_TIPO_BEM" : "Jóia, quadro, objeto de arte, de coleção, antiguidade, etc.",
+		"DS_ORDEM" : "Joia, quadro, objeto de arte, de colecao, antiguidade, etc."
+	},
+	{
+		"CD_TIPO_BEM" : 96,
+		"NM_TIPO_BEM" : "Leasing",
+		"DS_ORDEM" : "Leasing"
+	},
+	{
+		"CD_TIPO_BEM" : 91,
+		"NM_TIPO_BEM" : "Licença e concessões especiais",
+		"DS_ORDEM" : "Licenca e concessoes especiais"
+	},
+	{
+		"CD_TIPO_BEM" : 26,
+		"NM_TIPO_BEM" : "Linha telefônica",
+		"DS_ORDEM" : "Linha telefonica"
+	},
+	{
+		"CD_TIPO_BEM" : 18,
+		"NM_TIPO_BEM" : "Loja",
+		"DS_ORDEM" : "Loja"
+	},
+	{
+		"CD_TIPO_BEM" : 99,
+		"NM_TIPO_BEM" : "Outros bens e direitos",
+		"DS_ORDEM" : "Outros bens e direitos"
+	},
+	{
+		"CD_TIPO_BEM" : 19,
+		"NM_TIPO_BEM" : "Outros bens imóveis",
+		"DS_ORDEM" : "Outros bens imoveis"
+	},
+	{
+		"CD_TIPO_BEM" : 29,
+		"NM_TIPO_BEM" : "Outros bens móveis",
+		"DS_ORDEM" : "Outros bens moveis"
+	},
+	{
+		"CD_TIPO_BEM" : 2,
+		"NM_TIPO_BEM" : "Prédio comercial",
+		"DS_ORDEM" : "Predio comercial"
+	},
+	{
+		"CD_TIPO_BEM" : 1,
+		"NM_TIPO_BEM" : "Prédio residencial",
+		"DS_ORDEM" : "Predio residencial"
+	},
+	{
+		"CD_TIPO_BEM" : 15,
+		"NM_TIPO_BEM" : "Sala ou conjunto",
+		"DS_ORDEM" : "Sala ou conjunto"
+	},
+	{
+		"CD_TIPO_BEM" : 14,
+		"NM_TIPO_BEM" : "Terra nua",
+		"DS_ORDEM" : "Terra nua"
+	},
+	{
+		"CD_TIPO_BEM" : 13,
+		"NM_TIPO_BEM" : "Terreno",
+		"DS_ORDEM" : "Terreno"
+	},
+	{
+		"CD_TIPO_BEM" : 21,
+		"NM_TIPO_BEM" : "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+		"DS_ORDEM" : "Veiculo automotor terrestre: caminhao, automovel, moto, etc."
+	}
+]}

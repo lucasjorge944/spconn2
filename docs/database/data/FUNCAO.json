@@ -1,0 +1,27 @@
+{
+"FUNCAO": [
+	{
+		"CD_FUNCAO" : 0,
+		"DS_FUNCAO" : "Presidente"
+	},
+	{
+		"CD_FUNCAO" : 1,
+		"DS_FUNCAO" : "Tesoureiro"
+	},
+	{
+		"CD_FUNCAO" : 2,
+		"DS_FUNCAO" : "Administrador Financeiro"
+	},
+	{
+		"CD_FUNCAO" : 3,
+		"DS_FUNCAO" : "Advogado"
+	},
+	{
+		"CD_FUNCAO" : 4,
+		"DS_FUNCAO" : "Contabilista"
+	},
+	{
+		"CD_FUNCAO" : 9,
+		"DS_FUNCAO" : "Outros"
+	}
+]}
