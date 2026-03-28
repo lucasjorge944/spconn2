@@ -44,6 +44,28 @@ No **renderer**, a pilha interna (DI → controller → use case → repositóri
 - **JDK** 11+ para compilar e rodar o jdbc-sidecar em modo dev (o `pom.xml` usa `release` 11).
 - **Servidor H2** acessível na rede quando você testar contra o banco real (host/porta via variáveis de ambiente ou corpo da requisição).
 
+## Instalação do monorepo
+
+Na raiz do repositório (`apps/`), após o clone:
+
+```bash
+yarn install:all
+```
+
+O script **`install:all`** (definido no `package.json` da raiz) faz o seguinte, em sequência:
+
+| Etapa | O que instala ou prepara |
+|-------|---------------------------|
+| `yarn install` na raiz | Dependências do workspace raiz (ex.: `concurrently`, `wait-on`). |
+| `yarn install` em **`shared/`** | Dependências e, via script `prepare`, compilação TypeScript para `dist/` (`@spce/shared`). |
+| `yarn install` em **`renderer/`** e **`desktop/`** | UI React/Vite e shell Electron; resolução do pacote `@spce/shared` via portal. |
+| `yarn install` em **`jdbc-sidecar/`** | Metadados do pacote Node do sidecar (quase sem dependências npm). |
+| Maven **`dependency:go-offline`** | Baixa e resolve dependências Java do **jdbc-sidecar** (usa `./mvnw`; não exige Maven global). |
+
+É necessário **JDK no PATH** (ou `JAVA_HOME` coerente) para a etapa Maven; sem Java, o comando falha nessa parte final.
+
+Para instalar só um pacote, use `yarn install` dentro da pasta correspondente (a ordem manual típica é **shared** → **renderer** / **desktop**, por causa do `@spce/shared`).
+
 ## Pré-requisitos na máquina do cliente
 
 Estes itens valem para quem instala o **aplicativo empacotado** (AppImage, `.deb`, instalador Windows, DMG macOS), não para quem só clona o repositório e desenvolve.
@@ -83,6 +105,8 @@ Estes itens valem para quem instala o **aplicativo empacotado** (AppImage, `.deb
 Definir variáveis depende do SO: atalhos no Windows, `~/.profile` ou `.desktop` no Linux, `launchctl`/perfil no macOS, ou políticas de TI que injetem ambiente ao abrir o executável.
 
 ## Como desenvolver
+
+Se ainda não instalou dependências após clonar o repositório, na raiz execute `yarn install:all` (ver [Instalação do monorepo](#instalação-do-monorepo)).
 
 ### 1. jdbc-sidecar (terminal 1)
 
