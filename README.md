@@ -81,15 +81,64 @@ yarn dev
 
 ## Builds
 
+### Artefatos parciais
+
 ```bash
-# UI estática (saída em renderer/dist — usada pelo Electron em produção)
+# Tipos IPC (CommonJS) — usado pelo main do Electron
+cd shared && yarn build
+
+# UI estática (saída em renderer/dist — empacotada no instalador)
 cd renderer && yarn build
 
-# JAR do sidecar (shade)
+# JAR único do jdbc-sidecar (shade → jdbc-sidecar/target/jdbc-sidecar.jar)
 cd jdbc-sidecar && yarn build
 ```
 
-O Electron em modo produção carrega `renderer/dist/index.html` (`loadFile`); o `vite.config` do renderer usa `base: './'` para paths relativos.
+O Electron em modo **desenvolvimento** (`yarn dev` no `desktop/`) usa o Vite em `http://127.0.0.1:5173`. Em **produção empacotada**, o `main` carrega `renderer/dist/index.html` via `loadFile` (o `vite.config` usa `base: './'`).
+
+### Build de release (executável / instalador)
+
+Na raiz **`apps/`**, um único comando gera **shared** → **renderer** → **jdbc-sidecar (Maven)** → **pacote Electron** ([electron-builder](https://www.electron.build/) no `desktop/`):
+
+```bash
+yarn build:release
+```
+
+Saída em **`desktop/release/`**, por exemplo no Linux x64:
+
+| Artefato | Descrição |
+|----------|-----------|
+| **AppImage** (`SPCE-<versão>.AppImage`) | Executável portátil (Linux). |
+| **deb** (`desktop_<versão>_amd64.deb`) | Pacote Debian; o nome segue o campo `name` do `package.json` do desktop (ajuste `homepage` e metadados se mudar o projeto). |
+
+Equivalente só no pacote desktop (exige JAR e `renderer/dist` já gerados):
+
+```bash
+cd desktop && yarn build:desktop
+```
+
+Ou, no `desktop/`, `yarn build:release` roda `build` do renderer + shared e em seguida o electron-builder.
+
+### O que entra no pacote
+
+- **Código Electron** (`main.js`, `preload.js`, `sidecar-client.js`, `sidecar-process.js`, dependências de produção, `@spce/shared`).
+- **`renderer/dist/`** copiado para dentro do app (caminho em produção: `renderer/dist/` relativo ao `main` no asar).
+- **`jdbc-sidecar.jar`** em **`extraResources`** → em runtime: `process.resourcesPath/sidecar/jdbc-sidecar.jar`.
+
+### Runtime na máquina do usuário
+
+- **Java (JRE/JDK)** deve estar disponível: o app empacotado inicia o sidecar com `java -jar` (usa `JAVA_HOME` se existir; senão o comando `java` no **PATH**).
+- O instalador **não** inclui uma JVM embutida; isso reduz tamanho e evita licenciamento por plataforma. Para embutir JRE no futuro, dá para estender `extraResources` e apontar o spawn para esse binário.
+- **`SPCE_SKIP_EMBEDDED_SIDECAR=1`**: não inicia o JAR embutido (útil para depuração com sidecar externo). Em desenvolvimento não empacotado, o sidecar continua sendo o processo manual (`yarn dev:sidecar` ou `./mvnw`).
+
+### Plataformas
+
+- O **electron-builder** gera instaladores para o **SO atual** (no Linux, AppImage + deb conforme `desktop/package.json` → `build.linux`).
+- **Windows** (NSIS) e **macOS** (DMG) estão configurados em `build.win` / `build.mac`; builds nativos exigem rodar o comando na plataforma alvo (ou CI com runners adequados). Ícones customizados: campo `build` no `package.json` / pasta `build/` (ver documentação do electron-builder).
+
+### Configuração relevante
+
+- Metadados e alvos: **`desktop/package.json`** (`build.appId`, `build.productName`, `homepage` — necessário para o alvo **deb**).
 
 ## Yarn e `@spce/shared`
 
