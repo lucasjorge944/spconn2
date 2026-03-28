@@ -5,6 +5,7 @@
 - **`admspce16-views.sql`** — definições de **views** (`VW_*`): bem/serviço imobilizado, totais para atualização de receita/despesa, sobra não financeiro 4.2 e pivot. Usam sintaxe típica do export (ex.: `NVL`, `DECODE`, `CASEWHEN`, `CREATE FORCE VIEW`) — podem precisar de ajuste para outro motor.
 - **`admspce16-sequences.md`** — **sequências** (`SQ_EPC_*`): valor atual, min/max, incremento (referência para geradores de ID ou alinhamento com o banco).
 - **`admspce16-tipos-dados.md`** — **tipos de dados** do catálogo (H2/JDBC): precisão e escala por nome de tipo.
+- **`candidato-cadastro.md`** — mapeamento **SPCE (Qualificação)** → tabelas `EPC_PESSOA`, `EPC_ENTREGA_PRESTACAO`, `EPC_ENDERECO` e FKs usadas no cadastro de candidato no app.
 - **`ADMSPCE16.png`** — **diagrama ER** exportado do DBeaver (visão geral de tabelas e relacionamentos). Atualize ao mudar o modelo no banco.
 
 ## Diagrama ER

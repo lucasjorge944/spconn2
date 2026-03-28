@@ -16,12 +16,19 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
+import {
+  defaultCandidateInsertForm,
+  toInsertCandidateInput,
+} from '@/domain/entities/candidateInsertForm';
 import { getDIContainer } from '@/infrastructure/di/DIContainer';
+import { CandidateInsertForm } from '@/pages/CandidateInsertForm';
 import type { CandidateViewModel } from '@/presentation/viewmodels/CandidateViewModel';
 
 export function CandidatesPage() {
   const [loading, setLoading] = useState(false);
+  const [adding, setAdding] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [insertForm, setInsertForm] = useState(defaultCandidateInsertForm);
   const [candidates, setCandidates] = useState<CandidateViewModel[] | null>(
     null,
   );
@@ -47,30 +54,74 @@ export function CandidatesPage() {
     }
   }
 
+  async function addCandidate() {
+    setError(null);
+    setAdding(true);
+    try {
+      const payload = toInsertCandidateInput(insertForm);
+      const container = getDIContainer().candidates;
+      const controller = container.getCandidateController();
+      await controller.insertCandidate(payload);
+      if (candidates != null) {
+        const rows = await controller.getAllCandidates();
+        setCandidates(rows);
+      }
+    } catch (e) {
+      const msg =
+        e instanceof Error
+          ? e.message
+          : typeof e === 'string'
+            ? e
+            : JSON.stringify(e);
+      setError(msg);
+    } finally {
+      setAdding(false);
+    }
+  }
+
   return (
     <div className="mx-auto max-w-5xl space-y-6 px-4 py-8 text-left">
       <Card>
         <CardHeader>
           <CardTitle>Candidatos</CardTitle>
           <CardDescription>
+            Cadastro de <strong>candidato a vereador</strong> —{' '}
             <code className="text-xs">
-              EPC_PESSOA (TP_PESSOA = &apos;CA&apos;) com{' '}
-              EPC_ENTREGA_PRESTACAO
-            </code>{' '}
-            — consulta via <code className="text-xs">getAllCandidates()</code>.
+              EPC_PESSOA (TP_PESSOA = &apos;CA&apos;)
+            </code>
+            , <code className="text-xs">EPC_ENTREGA_PRESTACAO</code> e{' '}
+            <code className="text-xs">EPC_ENDERECO</code> (TP &apos;Q&apos;).
+            Mapeamento:{' '}
+            <code className="text-xs">docs/database/candidato-cadastro.md</code>.
             Requer <strong>jdbc-sidecar</strong> e o shell Electron (
             <code className="text-xs">apps/desktop</code>).
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <Button
-            type="button"
-            onClick={runQuery}
-            disabled={loading}
-            variant="default"
-          >
-            {loading ? 'Carregando…' : 'Carregar candidatos'}
-          </Button>
+          <CandidateInsertForm
+            value={insertForm}
+            onChange={setInsertForm}
+            disabled={loading || adding}
+          />
+
+          <div className="flex flex-wrap gap-2">
+            <Button
+              type="button"
+              onClick={runQuery}
+              disabled={loading || adding}
+              variant="default"
+            >
+              {loading ? 'Carregando…' : 'Carregar candidatos'}
+            </Button>
+            <Button
+              type="button"
+              onClick={addCandidate}
+              disabled={loading || adding}
+              variant="secondary"
+            >
+              {adding ? 'Inserindo…' : 'Adicionar candidato'}
+            </Button>
+          </div>
 
           {error != null && error !== '' && (
             <div
