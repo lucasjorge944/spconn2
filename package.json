@@ -11,6 +11,9 @@
     "dev:renderer": "yarn --cwd renderer dev",
     "build": "yarn build:shared && yarn build:renderer && yarn build:sidecar",
     "build:release": "yarn build:shared && yarn build:renderer && yarn build:sidecar && yarn --cwd desktop build:desktop",
+    "build:release:linux": "yarn build:shared && yarn build:renderer && yarn build:sidecar && yarn --cwd desktop build:linux",
+    "build:release:win": "yarn build:shared && yarn build:renderer && yarn build:sidecar && yarn --cwd desktop build:win",
+    "build:release:mac": "yarn build:shared && yarn build:renderer && yarn build:sidecar && yarn --cwd desktop build:mac",
     "build:shared": "yarn --cwd shared build",
     "build:renderer": "yarn --cwd renderer build",
     "build:sidecar": "yarn --cwd jdbc-sidecar build"

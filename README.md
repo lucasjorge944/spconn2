@@ -36,11 +36,49 @@ flowchart LR
 2. O **main** do Electron encaminha para o **jdbc-sidecar** (`127.0.0.1`, porta padrão **18080**).
 3. O sidecar executa o SQL no H2 (TCP) e devolve JSON `{ query, results }`.
 
-## Pré-requisitos
+## Pré-requisitos para desenvolvimento
 
 - **Node** 20+ (recomendado 24) e **Yarn** 4.
-- **JDK** 11+ para compilar/rodar o jdbc-sidecar (o `pom.xml` usa `release` 11).
-- **Servidor H2** acessível na rede (host/porta configurados no sidecar ou por variáveis de ambiente).
+- **JDK** 11+ para compilar e rodar o jdbc-sidecar em modo dev (o `pom.xml` usa `release` 11).
+- **Servidor H2** acessível na rede quando você testar contra o banco real (host/porta via variáveis de ambiente ou corpo da requisição).
+
+## Pré-requisitos na máquina do cliente
+
+Estes itens valem para quem instala o **aplicativo empacotado** (AppImage, `.deb`, instalador Windows, DMG macOS), não para quem só clona o repositório e desenvolve.
+
+### O que não é necessário no cliente
+
+- **Node.js**, **Yarn** ou **Maven** — o instalador já traz o runtime do Electron e os arquivos da UI; o sidecar vai como **JAR** nos recursos do app.
+
+### Obrigatório: Java
+
+- O processo **jdbc-sidecar** é iniciado com `java -jar` no próprio computador do usuário. É necessário um **JRE ou JDK na versão 11 ou superior** (o código do sidecar é compilado com **Java 11**).
+- O sistema deve encontrar o executável **`java`** no **PATH**, ou você pode definir **`JAVA_HOME`** apontando para a instalação do JDK/JRE (o app repassa isso ao subprocesso quando aplicável).
+- O instalador **não** inclui uma JVM embutida; o usuário (ou o departamento de TI) precisa instalar Java por conta própria (ex.: Eclipse Temurin, Oracle JDK, distribuição corporativa).
+
+### Sistema operacional e hardware
+
+- Usar o instalador **compatível com o SO e com a arquitetura** da máquina (por exemplo **Windows x64** ou **Linux x64**, conforme o que foi gerado no build).
+- No **Linux**, AppImages podem exigir permissão de execução (`chmod +x`) e, em alguns ambientes, suporte a **FUSE** / `libfuse2` para montar a imagem.
+- Ambiente **gráfico** (sessão desktop): não é aplicação pensada para servidor sem interface.
+
+### Rede e banco de dados
+
+- O sidecar abre um servidor HTTP em **localhost** (porta padrão **18080**; configurável por **`JDBC_SIDECAR_PORT`** no ambiente do processo). Em condições normais **não** é preciso abrir porta no firewall para a internet; tráfego é local.
+- A aplicação acessa o **banco H2 via JDBC** (modo TCP típico). A máquina do cliente precisa conseguir **alcançar o host e a porta do servidor H2** na rede (firewall corporativo, VPN, rota até o host configurado — por padrão o código assume host/porta definidos no sidecar ou no payload; variáveis como **`JDBC_URL`**, **`H2_TCP_PORT`**, **`H2_USER`**, **`H2_PASSWORD`** podem ser definidas no ambiente **antes** de abrir o app, para o processo Java herdá-las).
+
+### Variáveis de ambiente úteis (cliente avançado / TI)
+
+| Variável | Uso no cliente |
+|----------|----------------|
+| `JAVA_HOME` | Localização do JDK/JRE se `java` não estiver no PATH. |
+| `JDBC_SIDECAR_PORT` | Porta HTTP do sidecar (padrão `18080`). |
+| `JDBC_URL` | URL JDBC completa (sobrescreve montagem por host/porta). |
+| `H2_USER` / `H2_PASSWORD` | Credenciais H2. |
+| `H2_TCP_PORT` | Porta TCP do servidor H2 quando a URL é montada automaticamente. |
+| `SPCE_SKIP_EMBEDDED_SIDECAR=1` | Não inicia o JAR embutido; permite usar um sidecar já rodando manualmente (cenário de suporte). |
+
+Definir variáveis depende do SO: atalhos no Windows, `~/.profile` ou `.desktop` no Linux, `launchctl`/perfil no macOS, ou políticas de TI que injetem ambiente ao abrir o executável.
 
 ## Como desenvolver
 
@@ -98,10 +136,19 @@ O Electron em modo **desenvolvimento** (`yarn dev` no `desktop/`) usa o Vite em 
 
 ### Build de release (executável / instalador)
 
-Na raiz **`apps/`**, um único comando gera **shared** → **renderer** → **jdbc-sidecar (Maven)** → **pacote Electron** ([electron-builder](https://www.electron.build/) no `desktop/`):
+Na raiz **`apps/`**, o pipeline **shared** → **renderer** → **jdbc-sidecar (Maven)** → **Electron** ([electron-builder](https://www.electron.build/) no `desktop/`) pode ser acionado por plataforma:
+
+| Script (raiz `apps/`) | Alvo do electron-builder |
+|-----------------------|---------------------------|
+| `yarn build:release` | SO **atual** (sem `--linux` / `--win` / `--mac`). |
+| `yarn build:release:linux` | **Linux** (`--linux`: AppImage + deb conforme `desktop/package.json`). |
+| `yarn build:release:win` | **Windows** (`--win`: NSIS x64). |
+| `yarn build:release:mac` | **macOS** (`--mac`: DMG; em geral exige macOS ou CI macOS para assinatura). |
+
+Exemplo só para Linux:
 
 ```bash
-yarn build:release
+yarn build:release:linux
 ```
 
 Saída em **`desktop/release/`**, por exemplo no Linux x64:
@@ -111,13 +158,14 @@ Saída em **`desktop/release/`**, por exemplo no Linux x64:
 | **AppImage** (`SPCE-<versão>.AppImage`) | Executável portátil (Linux). |
 | **deb** (`desktop_<versão>_amd64.deb`) | Pacote Debian; o nome segue o campo `name` do `package.json` do desktop (ajuste `homepage` e metadados se mudar o projeto). |
 
-Equivalente só no pacote desktop (exige JAR e `renderer/dist` já gerados):
+No pacote **`desktop/`** (útil quando shared, renderer e JAR já foram gerados), há o mesmo recorte:
 
-```bash
-cd desktop && yarn build:desktop
-```
-
-Ou, no `desktop/`, `yarn build:release` roda `build` do renderer + shared e em seguida o electron-builder.
+| Script | Efeito |
+|--------|--------|
+| `yarn build:desktop` | Empacota para o SO atual. |
+| `yarn build:linux` / `build:win` / `build:mac` | Apenas o alvo indicado. |
+| `yarn build:release` | `build:renderer` + shared + `build:desktop`. |
+| `yarn build:release:linux` / `:win` / `:mac` | `build:renderer` + shared + `build:linux` / `build:win` / `build:mac`. |
 
 ### O que entra no pacote
 
@@ -127,14 +175,13 @@ Ou, no `desktop/`, `yarn build:release` roda `build` do renderer + shared e em s
 
 ### Runtime na máquina do usuário
 
-- **Java (JRE/JDK)** deve estar disponível: o app empacotado inicia o sidecar com `java -jar` (usa `JAVA_HOME` se existir; senão o comando `java` no **PATH**).
-- O instalador **não** inclui uma JVM embutida; isso reduz tamanho e evita licenciamento por plataforma. Para embutir JRE no futuro, dá para estender `extraResources` e apontar o spawn para esse binário.
-- **`SPCE_SKIP_EMBEDDED_SIDECAR=1`**: não inicia o JAR embutido (útil para depuração com sidecar externo). Em desenvolvimento não empacotado, o sidecar continua sendo o processo manual (`yarn dev:sidecar` ou `./mvnw`).
+Os requisitos para **quem só instala o app** (Java, rede, SO) estão na seção **Pré-requisitos na máquina do cliente**. O instalador **não** inclui JVM embutida; embutir JRE no futuro exigiria estender `extraResources` e o spawn em `sidecar-process.js`.
 
 ### Plataformas
 
-- O **electron-builder** gera instaladores para o **SO atual** (no Linux, AppImage + deb conforme `desktop/package.json` → `build.linux`).
-- **Windows** (NSIS) e **macOS** (DMG) estão configurados em `build.win` / `build.mac`; builds nativos exigem rodar o comando na plataforma alvo (ou CI com runners adequados). Ícones customizados: campo `build` no `package.json` / pasta `build/` (ver documentação do electron-builder).
+- Use **`yarn build:release`** para o SO onde o comando roda, ou **`build:release:linux`**, **`build:release:win`**, **`build:release:mac`** para fixar o alvo (ver tabela acima).
+- No Linux, os alvos **AppImage** e **deb** vêm de `desktop/package.json` → `build.linux`. **Windows** (NSIS) e **macOS** (DMG) estão em `build.win` / `build.mac`.
+- Build **Windows** a partir do Linux costuma exigir **Wine** (e dependências do electron-builder). **macOS** em Linux não é suportado de forma oficial para DMG assinado; use macOS ou CI macOS. Ícones: campo `build` no `package.json` / pasta `build/` (documentação do electron-builder).
 
 ### Configuração relevante
 

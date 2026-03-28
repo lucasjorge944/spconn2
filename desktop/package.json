@@ -11,7 +11,13 @@
     "dev": "concurrently -k -n vite,electron -c blue,magenta \"yarn --cwd ../renderer dev\" \"wait-on http://127.0.0.1:5173 && cross-env ELECTRON_RENDERER_URL=http://127.0.0.1:5173 electron .\"",
     "build:renderer": "yarn --cwd ../renderer build",
     "build:desktop": "electron-builder",
-    "build:release": "yarn build:renderer && yarn --cwd ../shared build && yarn build:desktop"
+    "build:linux": "electron-builder --linux",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:release": "yarn build:renderer && yarn --cwd ../shared build && yarn build:desktop",
+    "build:release:linux": "yarn build:renderer && yarn --cwd ../shared build && yarn build:linux",
+    "build:release:win": "yarn build:renderer && yarn --cwd ../shared build && yarn build:win",
+    "build:release:mac": "yarn build:renderer && yarn --cwd ../shared build && yarn build:mac"
   },
   "dependencies": {
     "@spce/shared": "portal:../shared"
