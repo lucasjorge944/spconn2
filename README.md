@@ -199,6 +199,10 @@ Os requisitos para **quem só instala o app** (Java, rede, SO) estão na seção
 - **`src/presentation/`** — controllers e view models para a UI.
 - **`src/components/ui/`** — componentes gerados pelo **shadcn**.
 
+## Documentação do banco (schema)
+
+DDL de referência do esquema **`ADMSPCE16`** (export DBeaver): pasta **`docs/database/`** — **`ADMSPCE16.png`** (diagrama ER), **`admspce16-schema.sql`** (tabelas), **`admspce16-views.sql`** (views `VW_*`), **`admspce16-sequences.md`** (sequências), **`admspce16-tipos-dados.md`** (tipos H2/JDBC) e notas em **`docs/database/README.md`**. Atualize os artefatos ao exportar de novo do banco. Regra do Cursor: **`.cursor/rules/database-schema.mdc`**.
+
 ## MCP / Cursor
 
 Em **`renderer/.cursor/mcp.json`** (e opcionalmente em **`.cursor/mcp.json`** na raiz `apps/`) pode existir configuração do MCP **shadcn** para o Cursor (`npx shadcn@latest mcp`).

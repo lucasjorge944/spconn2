@@ -1,0 +1,21 @@
+---
+description: UI com shadcn/ui via MCP; adicionar componentes pelo CLI quando faltar no projeto
+alwaysApply: true
+---
+
+# shadcn/ui e MCP
+
+Ao implementar ou alterar interface (telas, formulários, diálogos, navegação, feedback):
+
+1. **Priorize [shadcn/ui](https://ui.shadcn.com/)** — componha a UI com os primitives do projeto (`@/components/ui`, aliases em `renderer/components.json`). Não substitua por bibliotecas de componentes genéricas nem reinvente botões, inputs, dialogs, etc., salvo exceção explícita do time.
+
+2. **Use o MCP do shadcn** (`project-0-apps-shadcn`) antes de codificar ou ao duvidar de API/props:
+   - `get_project_registries` — confirma os registros configurados em `components.json` (se não existir, inicialize o projeto shadcn antes).
+   - `list_items_in_registries` / `search_items_in_registries` — descobrir componentes e blocos disponíveis.
+   - `view_items_in_registries` — detalhes e arquivos do item (nome com prefixo do registry, ex.: `@shadcn/button`).
+   - `get_item_examples_from_registries` — exemplos e demos com código completo (buscas como `button-demo`, `dialog example`).
+   - `get_audit_checklist` — checklist rápido depois de gerar ou alterar componentes.
+
+3. **Componente ainda não instalado no repo** — use `get_add_command_for_items` com os itens desejados (ex.: `["@shadcn/dialog", "@shadcn/form"]`) e **execute o comando retornado no terminal**, no diretório do app que contém `components.json` (neste monorepo: `renderer/`). Só depois importe e use no código.
+
+4. **Consistência** — siga `components.json` (Tailwind, aliases `@/components/ui`, `lucide`, etc.) e padrões dos arquivos já existentes em `renderer/`.
