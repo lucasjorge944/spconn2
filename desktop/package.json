@@ -8,7 +8,7 @@
   "homepage": "https://github.com/spce/spce",
   "scripts": {
     "start": "electron .",
-    "dev": "concurrently -k -n vite,electron -c blue,magenta \"yarn --cwd ../renderer dev\" \"wait-on http://127.0.0.1:5173 && cross-env ELECTRON_RENDERER_URL=http://127.0.0.1:5173 electron .\"",
+    "dev": "yarn --cwd ../shared build && concurrently -k -n vite,electron -c blue,magenta \"yarn --cwd ../renderer dev\" \"wait-on http://127.0.0.1:5173 && cross-env ELECTRON_RENDERER_URL=http://127.0.0.1:5173 electron .\"",
     "build:renderer": "yarn --cwd ../renderer build",
     "build:desktop": "electron-builder",
     "build:linux": "electron-builder --linux",

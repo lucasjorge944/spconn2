@@ -5,7 +5,7 @@
   "description": "Servidor HTTP JDBC (Maven/Java). Usa ./mvnw (Maven Wrapper); JDK 21+ recomendado.",
   "scripts": {
     "build": "./mvnw -B -q -DskipTests package",
-    "start": "./mvnw -q exec:java",
-    "dev": "./mvnw -q exec:java"
+    "start": "./mvnw -q compile exec:java",
+    "dev": "./mvnw -q compile exec:java"
   }
 }

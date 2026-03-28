@@ -57,7 +57,8 @@ O script **`install:all`** (definido no `package.json` da raiz) faz o seguinte, 
 | Etapa | O que instala ou prepara |
 |-------|---------------------------|
 | `yarn install` na raiz | Dependências do workspace raiz (ex.: `concurrently`, `wait-on`). |
-| `yarn install` em **`shared/`** | Dependências e, via script `prepare`, compilação TypeScript para `dist/` (`@spce/shared`). |
+| `yarn install` em **`shared/`** | Dependências; o script `prepare` também tenta compilar para `dist/`. |
+| **`yarn build:shared`** | Garante `shared/dist/` (necessário para o **main** do Electron carregar `@spce/shared`). |
 | `yarn install` em **`renderer/`** e **`desktop/`** | UI React/Vite e shell Electron; resolução do pacote `@spce/shared` via portal. |
 | `yarn install` em **`jdbc-sidecar/`** | Metadados do pacote Node do sidecar (quase sem dependências npm). |
 | Maven **`dependency:go-offline`** | Baixa e resolve dependências Java do **jdbc-sidecar** (usa `./mvnw`; não exige Maven global). |
@@ -113,7 +114,7 @@ Se ainda não instalou dependências após clonar o repositório, na raiz execut
 ```bash
 cd jdbc-sidecar
 yarn dev
-# ou: ./mvnw -q exec:java
+# equivale a compile + exec:java; só ./mvnw exec:java não compila as classes
 ```
 
 Variáveis úteis (opcionais; há defaults no código):
@@ -132,7 +133,7 @@ cd desktop
 yarn dev
 ```
 
-Sobe o Vite do **renderer** em `http://127.0.0.1:5173` e abre o Electron apontando para essa URL.
+Compila o **`@spce/shared`** (`yarn --cwd ../shared build`), sobe o Vite do **renderer** em `http://127.0.0.1:5173` e abre o Electron apontando para essa URL.
 
 ### 3. Só o renderer (sem Electron)
 
@@ -216,7 +217,7 @@ Os requisitos para **quem só instala o app** (Java, rede, SO) estão na seção
 ## Yarn e `@spce/shared`
 
 - Nos pacotes **renderer** e **desktop**, a dependência é **`portal:../shared`** (symlink; no desktop usa-se **`nodeLinker: node-modules`** em `.yarnrc.yml` por compatibilidade com o binário do Electron).
-- Após alterar tipos em `shared/`, rode `yarn build` em **`shared/`** (o `prepare` também compila na instalação).
+- Após alterar tipos em `shared/`, rode `yarn build` em **`shared/`** (o `prepare` também compila na instalação; `yarn dev` no **desktop** recompila o shared antes do Vite/Electron).
 
 ## Estrutura interna do `renderer` (resumo)
 

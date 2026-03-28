@@ -3,7 +3,7 @@
   "private": true,
   "packageManager": "yarn@4.12.0",
   "scripts": {
-    "install:all": "yarn install && yarn --cwd shared install && yarn --cwd renderer install && yarn --cwd desktop install && yarn --cwd jdbc-sidecar install && yarn --cwd jdbc-sidecar exec ./mvnw -B -q -DskipTests dependency:go-offline",
+    "install:all": "yarn install && yarn --cwd shared install && yarn build:shared && yarn --cwd renderer install && yarn --cwd desktop install && yarn --cwd jdbc-sidecar install && yarn --cwd jdbc-sidecar exec ./mvnw -B -q -DskipTests dependency:go-offline",
     "start": "concurrently -k -n sidecar,desktop -c green,cyan \"yarn --cwd jdbc-sidecar dev\" \"wait-on -t 120000 http://127.0.0.1:18080/health && yarn --cwd desktop dev\"",
     "dev": "yarn start",
     "start:parallel": "concurrently -k -n sidecar,desktop -c green,cyan \"yarn --cwd jdbc-sidecar dev\" \"yarn --cwd desktop dev\"",
