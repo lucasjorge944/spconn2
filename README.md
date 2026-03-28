@@ -36,6 +36,8 @@ flowchart LR
 2. O **main** do Electron encaminha para o **jdbc-sidecar** (`127.0.0.1`, porta padrão **18080**).
 3. O sidecar executa o SQL no H2 (TCP) e devolve JSON `{ query, results }`.
 
+No **renderer**, a pilha interna (DI → controller → use case → repositório → `SqlExecutionPort` → IPC) está documentada em **`docs/renderer-fluxo-sql-di.md`**. Para novas features SQL, use a skill do projeto **`renderer-sql-feature`** (`.cursor/skills/renderer-sql-feature/SKILL.md`).
+
 ## Pré-requisitos para desenvolvimento
 
 - **Node** 20+ (recomendado 24) e **Yarn** 4.
